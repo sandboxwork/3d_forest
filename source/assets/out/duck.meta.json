@@ -1,0 +1,154 @@
+{
+ "species": "Mallard drake (Anas platyrhynchos), floating",
+ "forward": "-Y",
+ "left": "+X",
+ "origin": "waterline under body centre (z=0 is water surface)",
+ "scale_hint_m": {
+  "length": 0.58,
+  "wingspan_open": 0.95,
+  "head_top_above_water": 0.32,
+  "body_width": 0.23
+ },
+ "parts": {
+  "root": "body",
+  "neck": "neck",
+  "head": "head",
+  "bill_lower": "bill_lower",
+  "tail": "tail",
+  "wing_l": [
+   "wing_l_upper",
+   "wing_l_fore",
+   "wing_l_hand"
+  ],
+  "wing_r": [
+   "wing_r_upper",
+   "wing_r_fore",
+   "wing_r_hand"
+  ],
+  "legs": {
+   "leg_l": "foot_l",
+   "leg_r": "foot_r"
+  }
+ },
+ "hierarchy": {
+  "body": [
+   "neck",
+   "tail",
+   "wing_*_upper",
+   "leg_*"
+  ],
+  "neck": [
+   "head"
+  ],
+  "head": [
+   "bill_lower"
+  ],
+  "wing_*_upper": [
+   "wing_*_fore"
+  ],
+  "wing_*_fore": [
+   "wing_*_hand"
+  ],
+  "leg_*": [
+   "foot_*"
+  ]
+ },
+ "rest_pose": "wings FOLDED on the flanks (fold authored in geometry). legs hang below waterline (feet at z~-0.075) - hide or keep under water; paddling = rotate leg_* about X +-30deg, foot_* about X.",
+ "standing": "to stand on land lift the whole asset by 0.14 m (ankle z=-0.075, toes ~ -0.11 below origin)",
+ "wing_open_pose": {
+  "wing_l": {
+   "upper": {
+    "open_quat_xyzw_three": [
+     0.51233,
+     -0.51233,
+     -0.48736,
+     0.48736
+    ],
+    "open_euler_xyz_deg_blender": [
+     92.9,
+     90.0,
+     0.0
+    ]
+   },
+   "fore": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99969,
+     0.02485,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     -2.8,
+     -0.0,
+     180.0
+    ]
+   },
+   "hand": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99829,
+     -0.05841,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     6.7,
+     -0.0,
+     180.0
+    ]
+   }
+  },
+  "wing_r": {
+   "upper": {
+    "open_quat_xyzw_three": [
+     0.51233,
+     0.51233,
+     0.48736,
+     0.48736
+    ],
+    "open_euler_xyz_deg_blender": [
+     92.9,
+     -90.0,
+     0.0
+    ]
+   },
+   "fore": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99969,
+     0.02485,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     -2.8,
+     -0.0,
+     180.0
+    ]
+   },
+   "hand": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99829,
+     -0.05841,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     6.7,
+     -0.0,
+     180.0
+    ]
+   }
+  }
+ },
+ "wing_open_note": "per-segment local rotation quaternion (xyzw, three.js coords) that fully spreads the wing (span along +-X, dorsal up). slerp from identity (folded). Flap: rotate wing_*_upper about three.js Z (blender Y) after open.",
+ "idle": {
+  "neck_s_bob_deg": 6,
+  "head_dip_deg": 70,
+  "note": "dabbling: rotate neck about X +70deg (head down, tail up by tilting body -X 25deg)",
+  "tail_wag_deg": 15,
+  "bill_open_deg": 10
+ },
+ "swim": {
+  "bob_amp_m": 0.006,
+  "wake": "body rocks +-2deg roll"
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "species": "domestic sheep (blackface, woolly)",
+ "forward": "-Y blender (+Z three.js)",
+ "scale_hint_m": {
+  "shoulder_height": 0.72,
+  "length": 1.1,
+  "head_height_alert": 0.95
+ },
+ "parts": {
+  "root": "body",
+  "neck": "neck",
+  "head": "head",
+  "jaw": "jaw",
+  "ears": [
+   "ear_l",
+   "ear_r"
+  ],
+  "tail": "tail",
+  "horns": [],
+  "left_is": "+X blender (+X three.js)"
+ },
+ "hierarchy": {
+  "body": [
+   "neck",
+   "tail",
+   "leg_*_upper"
+  ],
+  "neck": [
+   "head"
+  ],
+  "head": [
+   "jaw",
+   "ear_l",
+   "ear_r"
+  ],
+  "leg_xx_upper": [
+   "leg_xx_lower"
+  ],
+  "leg_xx_lower": [
+   "leg_xx_hoof"
+  ]
+ },
+ "gait": {
+  "walk_cycle_s": 1.0,
+  "trot_cycle_s": 0.55,
+  "legs": {
+   "leg_fl": [
+    "upper",
+    "lower",
+    "hoof"
+   ],
+   "leg_fr": [
+    "upper",
+    "lower",
+    "hoof"
+   ],
+   "leg_hl": [
+    "upper",
+    "lower",
+    "hoof"
+   ],
+   "leg_hr": [
+    "upper",
+    "lower",
+    "hoof"
+   ]
+  },
+  "walk_order": [
+   "leg_hl",
+   "leg_fl",
+   "leg_hr",
+   "leg_fr"
+  ],
+  "phase_offsets": {
+   "leg_hl": 0.0,
+   "leg_fl": 0.25,
+   "leg_hr": 0.5,
+   "leg_fr": 0.75
+  },
+  "rotation_axis": "X (positive X rotation swings the lower end of a limb backward (+Y), i.e. foot goes back)",
+  "swing_deg": {
+   "upper": [
+    -26,
+    26
+   ],
+   "lower_fore": [
+    0,
+    50
+   ],
+   "lower_hind": [
+    -55,
+    8
+   ],
+   "hoof": [
+    -12,
+    18
+   ]
+  },
+  "note": "Forelegs: carpus flexion = +X rot of lower (foot goes back/up). Hind: hock flexion = -X rot of lower in swing; upper swings +/-X about hip. Same convention as deer.json."
+ },
+ "idle": {
+  "head_bob_deg": 3,
+  "ear_flick_deg": 20,
+  "tail_flick_deg": 10,
+  "breath": "scale body Y 1.0..1.012 at 0.3 Hz"
+ },
+ "grazing_pose": {
+  "neck_rot_x_deg": 40,
+  "head_rot_x_deg": 25,
+  "jaw_chew_deg": [
+   0,
+   9
+  ],
+  "note": "positive X rotation pitches the free end downward"
+ },
+ "alert_pose": {
+  "neck_rot_x_deg": -8,
+  "head_rot_x_deg": -5,
+  "ears_out_deg": 15
+ },
+ "pivots": "each part origin = joint; see bundle parts[].pivot (three.js coords)"
+}

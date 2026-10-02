@@ -1,0 +1,166 @@
+{
+ "species": "Buzzard / red-tailed-style hawk, soaring (wings authored fully spread)",
+ "forward": "-Y",
+ "left": "+X",
+ "origin": "below body centre; body centre at z=0.13 (origin at belly level for placement in sky)",
+ "scale_hint_m": {
+  "wingspan": 1.3,
+  "body_length": 0.5,
+  "tail_length": 0.26
+ },
+ "parts": {
+  "root": "body",
+  "head": "head",
+  "beak_lower": "beak_lower",
+  "tail": "tail",
+  "wing_l": [
+   "wing_l_upper",
+   "wing_l_fore",
+   "wing_l_hand"
+  ],
+  "wing_r": [
+   "wing_r_upper",
+   "wing_r_fore",
+   "wing_r_hand"
+  ],
+  "legs": {
+   "leg_l": "foot_l",
+   "leg_r": "foot_r"
+  }
+ },
+ "hierarchy": {
+  "body": [
+   "head",
+   "tail",
+   "wing_*_upper",
+   "leg_*"
+  ],
+  "head": [
+   "beak_lower"
+  ],
+  "wing_*_upper": [
+   "wing_*_fore"
+  ],
+  "wing_*_fore": [
+   "wing_*_hand"
+  ],
+  "leg_*": [
+   "foot_*"
+  ]
+ },
+ "rest_pose": "wings fully SPREAD in the XY plane (soaring). Flap axis: rotate wing_*_upper about blender Y (length axis) = three.js Z; left wing up = negative? (rotate left wing by -a about Y to raise tip). Wing tips: also rotate wing_*_fore/hand about Y by a*0.6/1.0 for phase lag.",
+ "soar": {
+  "bank_deg": [
+   -20,
+   20
+  ],
+  "tail_fan_deg": 10,
+  "tail_pitch_deg": 6,
+  "wing_tip_dihedral_deg": 6
+ },
+ "flap": {
+  "cycle_s": 0.9,
+  "upper_deg": [
+   -35,
+   45
+  ],
+  "fore_deg": [
+   -20,
+   25
+  ],
+  "hand_deg": [
+   -10,
+   35
+  ],
+  "note": "rotations about Y blender (three.js Z); phase lag 0.1 cycle per segment"
+ },
+ "wing_fold_pose": {
+  "wing_l": {
+   "upper": {
+    "fold_quat_xyzw_three": [
+     -0.51233,
+     0.51233,
+     0.48736,
+     0.48736
+    ],
+    "fold_euler_xyz_deg_blender": [
+     -90.0,
+     2.9,
+     90.0
+    ]
+   },
+   "fore": {
+    "fold_quat_xyzw_three": [
+     0.07474,
+     0.0,
+     -0.9972,
+     0.0
+    ],
+    "fold_euler_xyz_deg_blender": [
+     -0.0,
+     -180.0,
+     -8.6
+    ]
+   },
+   "hand": {
+    "fold_quat_xyzw_three": [
+     0.15745,
+     0.0,
+     -0.98753,
+     0.0
+    ],
+    "fold_euler_xyz_deg_blender": [
+     -0.0,
+     -180.0,
+     -18.1
+    ]
+   }
+  },
+  "wing_r": {
+   "upper": {
+    "fold_quat_xyzw_three": [
+     -0.51233,
+     -0.51233,
+     -0.48736,
+     0.48736
+    ],
+    "fold_euler_xyz_deg_blender": [
+     -90.0,
+     -2.9,
+     -90.0
+    ]
+   },
+   "fore": {
+    "fold_quat_xyzw_three": [
+     -0.07474,
+     0.0,
+     -0.9972,
+     0.0
+    ],
+    "fold_euler_xyz_deg_blender": [
+     -0.0,
+     180.0,
+     8.6
+    ]
+   },
+   "hand": {
+    "fold_quat_xyzw_three": [
+     -0.15745,
+     0.0,
+     -0.98753,
+     0.0
+    ],
+    "fold_euler_xyz_deg_blender": [
+     -0.0,
+     180.0,
+     18.1
+    ]
+   }
+  }
+ },
+ "wing_fold_note": "local quaternions (xyzw three.js) per segment to fold the wing against the body (slerp from identity).",
+ "idle": {
+  "head_turn_deg": 40,
+  "tail_tilt_deg": 8
+ }
+}

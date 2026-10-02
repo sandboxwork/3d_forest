@@ -1,0 +1,124 @@
+{
+ "bundle": "flower_box",
+ "parts": {
+  "flower_box_a": {
+   "species": "flower_box",
+   "variant": "a",
+   "lod": 0,
+   "ko": "창가 화분 상자(플라워박스)",
+   "height_m": 0.435,
+   "radius_m": 0.502,
+   "weight": 0.5,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 18676
+  },
+  "flower_box_b": {
+   "species": "flower_box",
+   "variant": "b",
+   "lod": 0,
+   "ko": "창가 화분 상자(플라워박스)",
+   "height_m": 0.43,
+   "radius_m": 0.484,
+   "weight": 0.5,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 18180
+  },
+  "flower_pot_a": {
+   "species": "flower_pot",
+   "variant": "a",
+   "lod": 0,
+   "ko": "화분(제라늄)",
+   "height_m": 0.517,
+   "radius_m": 0.119,
+   "weight": 0.5,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 5716
+  },
+  "flower_pot_b": {
+   "species": "flower_pot",
+   "variant": "b",
+   "lod": 0,
+   "ko": "화분(제라늄)",
+   "height_m": 0.503,
+   "radius_m": 0.119,
+   "weight": 0.5,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 5716
+  },
+  "flower_bed_a": {
+   "species": "flower_bed",
+   "variant": "a",
+   "lod": 0,
+   "ko": "화단",
+   "height_m": 0.77,
+   "radius_m": 0.944,
+   "weight": 0.5,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.15
+   },
+   "tris": 27671
+  },
+  "flower_bed_b": {
+   "species": "flower_bed",
+   "variant": "b",
+   "lod": 0,
+   "ko": "화단",
+   "height_m": 0.741,
+   "radius_m": 0.939,
+   "weight": 0.5,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.15
+   },
+   "tris": 28087
+  }
+ },
+ "species": {
+  "flower_box": {
+   "ko": "창가 화분 상자(플라워박스)",
+   "variants": [
+    "a",
+    "b"
+   ],
+   "weight": 0.5,
+   "habitat": "garden"
+  },
+  "flower_pot": {
+   "ko": "화분(제라늄)",
+   "variants": [
+    "a",
+    "b"
+   ],
+   "weight": 0.5,
+   "habitat": "garden"
+  },
+  "flower_bed": {
+   "ko": "화단",
+   "variants": [
+    "a",
+    "b"
+   ],
+   "weight": 0.5,
+   "habitat": "garden"
+  }
+ }
+}

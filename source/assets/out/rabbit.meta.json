@@ -1,0 +1,63 @@
+{
+ "species": "European wild rabbit (Oryctolagus cuniculus)",
+ "pose": "sitting upright/crouched, alert",
+ "forward": "-Y",
+ "left_is": "+X",
+ "scale_hint_m": {
+  "length": 0.4,
+  "height_sitting": 0.27,
+  "ear_length": 0.12
+ },
+ "parts": {
+  "root": "body",
+  "head": "head",
+  "jaw": "jaw",
+  "ears": [
+   "ear_l",
+   "ear_r"
+  ],
+  "tail": "tail"
+ },
+ "hierarchy": {
+  "body": [
+   "head",
+   "tail",
+   "leg_h*_thigh",
+   "leg_f*_upper"
+  ],
+  "head": [
+   "jaw",
+   "ear_l",
+   "ear_r"
+  ],
+  "leg_h*_thigh": [
+   "leg_h*_lower"
+  ],
+  "leg_h*_lower": [
+   "leg_h*_foot"
+  ],
+  "leg_f*_upper": [
+   "leg_f*_lower"
+  ],
+  "leg_f*_lower": [
+   "leg_f*_paw"
+  ]
+ },
+ "hop": {
+  "cycle_s": 0.55,
+  "body_arc_height_m": 0.18,
+  "distance_m": 0.35,
+  "note": "Sitting rest pose. For a hop: body pitch nose-down/up via whole-asset rotation X; hind thigh rot_x: sit (0) -> extend (-55deg swings foot back/up), hind lower rot_x +50, foot rot_x -40; fore upper rot_x +20 reaches forward. Tuck back in flight.",
+  "sign": "rotation about X: positive rotates the free end of a part that points up toward +Y (back)... verify visually; front/hind swing ranges given are hints"
+ },
+ "idle": {
+  "ear_twitch_deg": 12,
+  "ear_independent": true,
+  "nose_twitch": "head rot_x +-2deg at 6Hz",
+  "breath": "body scale 1..1.02 at 1Hz",
+  "graze": {
+   "head_rot_x_deg": 35
+  }
+ },
+ "pivots": "part origin = joint"
+}

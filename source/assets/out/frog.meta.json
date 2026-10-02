@@ -1,0 +1,67 @@
+{
+ "species": "green frog (Pelophylax)",
+ "scale_hint_m": {
+  "length": 0.09,
+  "height_sitting": 0.05,
+  "eyes_top_z": 0.053
+ },
+ "axes": "nose -Y, left = +X, origin on ground under body; parts have pivots at joints",
+ "left_is": "+X",
+ "parts": {
+  "root": "body",
+  "throat": "throat (pivot at chin; scale 1..1.6 to pulse vocal sac)",
+  "hind_legs": {
+   "leg_hl": [
+    "upper",
+    "lower",
+    "foot"
+   ],
+   "leg_hr": [
+    "upper",
+    "lower",
+    "foot"
+   ]
+  },
+  "front_legs": {
+   "arm_l": [
+    "upper",
+    "lower"
+   ],
+   "arm_r": [
+    "upper",
+    "lower"
+   ]
+  }
+ },
+ "hierarchy": {
+  "body": [
+   "throat",
+   "leg_h*_upper",
+   "arm_*_upper"
+  ],
+  "leg_h*_upper": [
+   "leg_h*_lower"
+  ],
+  "leg_h*_lower": [
+   "leg_h*_foot"
+  ],
+  "arm_*_upper": [
+   "arm_*_lower"
+  ]
+ },
+ "hop": {
+  "note": "rest pose is crouched: thigh forward-out, shin folded back. Extend: rotate upper about X by +50deg (knee swings back), lower about X by -70deg, foot about X by +40deg; body pitch up 15deg; duration 0.5s; sign to be verified at runtime",
+  "airborne_deg": {
+   "upper_x": 55,
+   "lower_x": -85,
+   "foot_x": 45
+  }
+ },
+ "idle": {
+  "throat_pulse_hz": 1.2,
+  "throat_scale": [
+   1.0,
+   1.35
+  ]
+ }
+}

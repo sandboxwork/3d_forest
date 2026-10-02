@@ -1,0 +1,126 @@
+{
+ "species": "red deer doe (summer coat)",
+ "forward": "-Y blender (+Z three.js)",
+ "scale_hint_m": {
+  "shoulder_height": 1.05,
+  "length": 1.45,
+  "head_height_alert": 1.5
+ },
+ "parts": {
+  "root": "body",
+  "neck": "neck",
+  "head": "head",
+  "jaw": "jaw",
+  "ears": [
+   "ear_l",
+   "ear_r"
+  ],
+  "tail": "tail",
+  "antlers": [],
+  "left_is": "+X blender (+X three.js)"
+ },
+ "hierarchy": {
+  "body": [
+   "neck",
+   "tail",
+   "leg_*_upper"
+  ],
+  "neck": [
+   "head"
+  ],
+  "head": [
+   "jaw",
+   "ear_l",
+   "ear_r"
+  ],
+  "leg_xx_upper": [
+   "leg_xx_lower"
+  ],
+  "leg_xx_lower": [
+   "leg_xx_hoof"
+  ]
+ },
+ "gait": {
+  "walk_cycle_s": 1.3,
+  "trot_cycle_s": 0.7,
+  "legs": {
+   "leg_fl": [
+    "upper",
+    "lower",
+    "hoof"
+   ],
+   "leg_fr": [
+    "upper",
+    "lower",
+    "hoof"
+   ],
+   "leg_hl": [
+    "upper",
+    "lower",
+    "hoof"
+   ],
+   "leg_hr": [
+    "upper",
+    "lower",
+    "hoof"
+   ]
+  },
+  "walk_order": [
+   "leg_hl",
+   "leg_fl",
+   "leg_hr",
+   "leg_fr"
+  ],
+  "phase_offsets": {
+   "leg_hl": 0.0,
+   "leg_fl": 0.25,
+   "leg_hr": 0.5,
+   "leg_fr": 0.75
+  },
+  "rotation_axis": "X (positive X rotation swings the lower end of a limb backward (+Y), i.e. foot goes back)",
+  "swing_deg": {
+   "upper": [
+    -28,
+    28
+   ],
+   "lower_fore": [
+    0,
+    55
+   ],
+   "lower_hind": [
+    -60,
+    10
+   ],
+   "hoof": [
+    -15,
+    20
+   ]
+  },
+  "note": "Forelegs: carpus flexion = +X rot of lower (foot goes back/up). Hind: hock flexion = -X rot of lower (foot goes forward under belly) in swing; upper swings +/-X about hip."
+ },
+ "idle": {
+  "head_bob_deg": 4,
+  "ear_flick_deg": 18,
+  "tail_flick_deg": 12,
+  "breath": "scale body Y 1.0..1.012 at 0.3 Hz"
+ },
+ "grazing_pose": {
+  "neck_rot_x_deg": 62,
+  "head_rot_x_deg": 25,
+  "jaw_chew_deg": [
+   0,
+   8
+  ],
+  "front_leg_upper_rot_x_deg": [
+   0,
+   0
+  ],
+  "note": "positive X rotation about pivot pitches the free end downward (nose goes down)"
+ },
+ "alert_pose": {
+  "neck_rot_x_deg": -8,
+  "head_rot_x_deg": -5,
+  "ears_out_deg": 20
+ },
+ "pivots": "each part origin = joint; see bundle parts[].pivot (three.js coords)"
+}

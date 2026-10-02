@@ -1,0 +1,146 @@
+{
+ "species": "Common kingfisher (Alcedo atthis), perched",
+ "forward": "-Y",
+ "left": "+X",
+ "scale_hint_m": {
+  "length": 0.165,
+  "height_perched": 0.12,
+  "wingspan_open": 0.25
+ },
+ "parts": {
+  "root": "body",
+  "head": "head",
+  "beak_lower": "beak_lower",
+  "tail": "tail",
+  "wing_l": [
+   "wing_l_upper",
+   "wing_l_fore",
+   "wing_l_hand"
+  ],
+  "wing_r": [
+   "wing_r_upper",
+   "wing_r_fore",
+   "wing_r_hand"
+  ],
+  "legs": {
+   "leg_l": "foot_l",
+   "leg_r": "foot_r"
+  }
+ },
+ "hierarchy": {
+  "body": [
+   "head",
+   "tail",
+   "wing_*_upper",
+   "leg_*"
+  ],
+  "head": [
+   "beak_lower"
+  ],
+  "wing_*_upper": [
+   "wing_*_fore"
+  ],
+  "wing_*_fore": [
+   "wing_*_hand"
+  ],
+  "leg_*": [
+   "foot_*"
+  ]
+ },
+ "rest_pose": "wings FOLDED against body (Z-fold authored into geometry). Rotations are applied to parts at runtime.",
+ "wing_open_pose": {
+  "wing_l": {
+   "upper": {
+    "open_quat_xyzw_three": [
+     0.51233,
+     -0.51233,
+     -0.48736,
+     0.48736
+    ],
+    "open_euler_xyz_deg_blender": [
+     92.9,
+     90.0,
+     0.0
+    ]
+   },
+   "fore": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99969,
+     0.02485,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     -2.8,
+     -0.0,
+     180.0
+    ]
+   },
+   "hand": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99829,
+     -0.05841,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     6.7,
+     -0.0,
+     180.0
+    ]
+   }
+  },
+  "wing_r": {
+   "upper": {
+    "open_quat_xyzw_three": [
+     0.51233,
+     0.51233,
+     0.48736,
+     0.48736
+    ],
+    "open_euler_xyz_deg_blender": [
+     92.9,
+     -90.0,
+     0.0
+    ]
+   },
+   "fore": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99969,
+     0.02485,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     -2.8,
+     -0.0,
+     180.0
+    ]
+   },
+   "hand": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99829,
+     -0.05841,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     6.7,
+     -0.0,
+     180.0
+    ]
+   }
+  }
+ },
+ "wing_open_note": "Set each wing part local rotation (quaternion xyzw in three.js coords, or blender euler XYZ deg) to fully open the wing (span along +-X, dorsal up). Blend linearly (slerp) between identity (folded) and this quaternion per segment. Flapping: then rotate wing_*_upper about the body Y axis (blender) = Z axis three.js, +-35deg (left wing raise = rotate by -angle about blender Y... verify sign) after open quat.",
+ "idle": {
+  "head_turn_deg": 35,
+  "head_bob_deg": 8,
+  "tail_bob_deg": 10,
+  "beak_open_deg": 12,
+  "jaw": "beak_lower rotate about X"
+ },
+ "hop": {
+  "legs": "rotate leg_* about X +-25deg; feet compensate"
+ }
+}

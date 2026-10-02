@@ -1,0 +1,1978 @@
+{
+ "bundle": "flowers_meadow",
+ "parts": {
+  "daisy_a": {
+   "species": "daisy",
+   "variant": "a",
+   "lod": 0,
+   "ko": "불란서국화(옥스아이데이지)",
+   "height_m": 0.511,
+   "radius_m": 0.071,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1031
+  },
+  "daisy_a_lod1": {
+   "species": "daisy",
+   "variant": "a",
+   "lod": 1,
+   "ko": "불란서국화(옥스아이데이지)",
+   "height_m": 0.511,
+   "radius_m": 0.075,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 341,
+   "lod_of": "daisy_a"
+  },
+  "daisy_b": {
+   "species": "daisy",
+   "variant": "b",
+   "lod": 0,
+   "ko": "불란서국화(옥스아이데이지)",
+   "height_m": 0.653,
+   "radius_m": 0.079,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1095
+  },
+  "daisy_b_lod1": {
+   "species": "daisy",
+   "variant": "b",
+   "lod": 1,
+   "ko": "불란서국화(옥스아이데이지)",
+   "height_m": 0.648,
+   "radius_m": 0.081,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 373,
+   "lod_of": "daisy_b"
+  },
+  "daisy_c": {
+   "species": "daisy",
+   "variant": "c",
+   "lod": 0,
+   "ko": "불란서국화(옥스아이데이지)",
+   "height_m": 0.449,
+   "radius_m": 0.097,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1787
+  },
+  "daisy_c_lod1": {
+   "species": "daisy",
+   "variant": "c",
+   "lod": 1,
+   "ko": "불란서국화(옥스아이데이지)",
+   "height_m": 0.446,
+   "radius_m": 0.096,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 615,
+   "lod_of": "daisy_c"
+  },
+  "daisy_d": {
+   "species": "daisy",
+   "variant": "d",
+   "lod": 0,
+   "ko": "불란서국화(옥스아이데이지)",
+   "height_m": 0.596,
+   "radius_m": 0.077,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1143
+  },
+  "daisy_d_lod1": {
+   "species": "daisy",
+   "variant": "d",
+   "lod": 1,
+   "ko": "불란서국화(옥스아이데이지)",
+   "height_m": 0.595,
+   "radius_m": 0.079,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 389,
+   "lod_of": "daisy_d"
+  },
+  "poppy_a": {
+   "species": "poppy",
+   "variant": "a",
+   "lod": 0,
+   "ko": "개양귀비",
+   "height_m": 0.621,
+   "radius_m": 0.092,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 1385
+  },
+  "poppy_a_lod1": {
+   "species": "poppy",
+   "variant": "a",
+   "lod": 1,
+   "ko": "개양귀비",
+   "height_m": 0.621,
+   "radius_m": 0.095,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 381,
+   "lod_of": "poppy_a"
+  },
+  "poppy_b": {
+   "species": "poppy",
+   "variant": "b",
+   "lod": 0,
+   "ko": "개양귀비",
+   "height_m": 0.753,
+   "radius_m": 0.11,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 1385
+  },
+  "poppy_b_lod1": {
+   "species": "poppy",
+   "variant": "b",
+   "lod": 1,
+   "ko": "개양귀비",
+   "height_m": 0.751,
+   "radius_m": 0.11,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 381,
+   "lod_of": "poppy_b"
+  },
+  "poppy_c": {
+   "species": "poppy",
+   "variant": "c",
+   "lod": 0,
+   "ko": "개양귀비",
+   "height_m": 0.526,
+   "radius_m": 0.124,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 1695
+  },
+  "poppy_c_lod1": {
+   "species": "poppy",
+   "variant": "c",
+   "lod": 1,
+   "ko": "개양귀비",
+   "height_m": 0.524,
+   "radius_m": 0.122,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 549,
+   "lod_of": "poppy_c"
+  },
+  "poppy_d": {
+   "species": "poppy",
+   "variant": "d",
+   "lod": 0,
+   "ko": "개양귀비",
+   "height_m": 0.514,
+   "radius_m": 0.084,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 1511
+  },
+  "poppy_d_lod1": {
+   "species": "poppy",
+   "variant": "d",
+   "lod": 1,
+   "ko": "개양귀비",
+   "height_m": 0.513,
+   "radius_m": 0.083,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 446,
+   "lod_of": "poppy_d"
+  },
+  "cornflower_a": {
+   "species": "cornflower",
+   "variant": "a",
+   "lod": 0,
+   "ko": "수레국화",
+   "height_m": 0.692,
+   "radius_m": 0.129,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 2114
+  },
+  "cornflower_a_lod1": {
+   "species": "cornflower",
+   "variant": "a",
+   "lod": 1,
+   "ko": "수레국화",
+   "height_m": 0.691,
+   "radius_m": 0.15,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 547,
+   "lod_of": "cornflower_a"
+  },
+  "cornflower_b": {
+   "species": "cornflower",
+   "variant": "b",
+   "lod": 0,
+   "ko": "수레국화",
+   "height_m": 0.823,
+   "radius_m": 0.099,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 1678
+  },
+  "cornflower_b_lod1": {
+   "species": "cornflower",
+   "variant": "b",
+   "lod": 1,
+   "ko": "수레국화",
+   "height_m": 0.822,
+   "radius_m": 0.11,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 465,
+   "lod_of": "cornflower_b"
+  },
+  "cornflower_c": {
+   "species": "cornflower",
+   "variant": "c",
+   "lod": 0,
+   "ko": "수레국화",
+   "height_m": 0.671,
+   "radius_m": 0.132,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 2257
+  },
+  "cornflower_c_lod1": {
+   "species": "cornflower",
+   "variant": "c",
+   "lod": 1,
+   "ko": "수레국화",
+   "height_m": 0.67,
+   "radius_m": 0.131,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 610,
+   "lod_of": "cornflower_c"
+  },
+  "cornflower_d": {
+   "species": "cornflower",
+   "variant": "d",
+   "lod": 0,
+   "ko": "수레국화",
+   "height_m": 0.739,
+   "radius_m": 0.119,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 1385
+  },
+  "cornflower_d_lod1": {
+   "species": "cornflower",
+   "variant": "d",
+   "lod": 1,
+   "ko": "수레국화",
+   "height_m": 0.738,
+   "radius_m": 0.148,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 446,
+   "lod_of": "cornflower_d"
+  },
+  "buttercup_a": {
+   "species": "buttercup",
+   "variant": "a",
+   "lod": 0,
+   "ko": "미나리아재비",
+   "height_m": 0.489,
+   "radius_m": 0.106,
+   "weight": 0.9,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 2274
+  },
+  "buttercup_a_lod1": {
+   "species": "buttercup",
+   "variant": "a",
+   "lod": 1,
+   "ko": "미나리아재비",
+   "height_m": 0.491,
+   "radius_m": 0.104,
+   "weight": 0.9,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 922,
+   "lod_of": "buttercup_a"
+  },
+  "buttercup_b": {
+   "species": "buttercup",
+   "variant": "b",
+   "lod": 0,
+   "ko": "미나리아재비",
+   "height_m": 0.559,
+   "radius_m": 0.086,
+   "weight": 0.9,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1757
+  },
+  "buttercup_b_lod1": {
+   "species": "buttercup",
+   "variant": "b",
+   "lod": 1,
+   "ko": "미나리아재비",
+   "height_m": 0.559,
+   "radius_m": 0.103,
+   "weight": 0.9,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 687,
+   "lod_of": "buttercup_b"
+  },
+  "buttercup_c": {
+   "species": "buttercup",
+   "variant": "c",
+   "lod": 0,
+   "ko": "미나리아재비",
+   "height_m": 0.576,
+   "radius_m": 0.115,
+   "weight": 0.9,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 2791
+  },
+  "buttercup_c_lod1": {
+   "species": "buttercup",
+   "variant": "c",
+   "lod": 1,
+   "ko": "미나리아재비",
+   "height_m": 0.58,
+   "radius_m": 0.094,
+   "weight": 0.9,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1157,
+   "lod_of": "buttercup_c"
+  },
+  "buttercup_d": {
+   "species": "buttercup",
+   "variant": "d",
+   "lod": 0,
+   "ko": "미나리아재비",
+   "height_m": 0.381,
+   "radius_m": 0.096,
+   "weight": 0.9,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1757
+  },
+  "buttercup_d_lod1": {
+   "species": "buttercup",
+   "variant": "d",
+   "lod": 1,
+   "ko": "미나리아재비",
+   "height_m": 0.424,
+   "radius_m": 0.093,
+   "weight": 0.9,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 687,
+   "lod_of": "buttercup_d"
+  },
+  "dandelion_a": {
+   "species": "dandelion",
+   "variant": "a",
+   "lod": 0,
+   "ko": "서양민들레",
+   "height_m": 0.264,
+   "radius_m": 0.116,
+   "weight": 0.9,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 1633
+  },
+  "dandelion_a_lod1": {
+   "species": "dandelion",
+   "variant": "a",
+   "lod": 1,
+   "ko": "서양민들레",
+   "height_m": 0.263,
+   "radius_m": 0.126,
+   "weight": 0.9,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 557,
+   "lod_of": "dandelion_a"
+  },
+  "dandelion_b": {
+   "species": "dandelion",
+   "variant": "b",
+   "lod": 0,
+   "ko": "서양민들레",
+   "height_m": 0.335,
+   "radius_m": 0.074,
+   "weight": 0.9,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 4449
+  },
+  "dandelion_b_lod1": {
+   "species": "dandelion",
+   "variant": "b",
+   "lod": 1,
+   "ko": "서양민들레",
+   "height_m": 0.335,
+   "radius_m": 0.074,
+   "weight": 0.9,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 1361,
+   "lod_of": "dandelion_b"
+  },
+  "dandelion_c": {
+   "species": "dandelion",
+   "variant": "c",
+   "lod": 0,
+   "ko": "서양민들레",
+   "height_m": 0.276,
+   "radius_m": 0.112,
+   "weight": 0.9,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 2504
+  },
+  "dandelion_c_lod1": {
+   "species": "dandelion",
+   "variant": "c",
+   "lod": 1,
+   "ko": "서양민들레",
+   "height_m": 0.275,
+   "radius_m": 0.117,
+   "weight": 0.9,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 716,
+   "lod_of": "dandelion_c"
+  },
+  "dandelion_d": {
+   "species": "dandelion",
+   "variant": "d",
+   "lod": 0,
+   "ko": "서양민들레",
+   "height_m": 0.246,
+   "radius_m": 0.087,
+   "weight": 0.9,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 4240
+  },
+  "dandelion_d_lod1": {
+   "species": "dandelion",
+   "variant": "d",
+   "lod": 1,
+   "ko": "서양민들레",
+   "height_m": 0.246,
+   "radius_m": 0.067,
+   "weight": 0.9,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 1420,
+   "lod_of": "dandelion_d"
+  },
+  "clover_red_a": {
+   "species": "clover_red",
+   "variant": "a",
+   "lod": 0,
+   "ko": "붉은토끼풀(붉은클로버)",
+   "height_m": 0.352,
+   "radius_m": 0.082,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 2859
+  },
+  "clover_red_a_lod1": {
+   "species": "clover_red",
+   "variant": "a",
+   "lod": 1,
+   "ko": "붉은토끼풀(붉은클로버)",
+   "height_m": 0.268,
+   "radius_m": 0.076,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 617,
+   "lod_of": "clover_red_a"
+  },
+  "clover_red_b": {
+   "species": "clover_red",
+   "variant": "b",
+   "lod": 0,
+   "ko": "붉은토끼풀(붉은클로버)",
+   "height_m": 0.32,
+   "radius_m": 0.097,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 2275
+  },
+  "clover_red_b_lod1": {
+   "species": "clover_red",
+   "variant": "b",
+   "lod": 1,
+   "ko": "붉은토끼풀(붉은클로버)",
+   "height_m": 0.298,
+   "radius_m": 0.107,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 406,
+   "lod_of": "clover_red_b"
+  },
+  "clover_red_c": {
+   "species": "clover_red",
+   "variant": "c",
+   "lod": 0,
+   "ko": "붉은토끼풀(붉은클로버)",
+   "height_m": 0.317,
+   "radius_m": 0.071,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 3443
+  },
+  "clover_red_c_lod1": {
+   "species": "clover_red",
+   "variant": "c",
+   "lod": 1,
+   "ko": "붉은토끼풀(붉은클로버)",
+   "height_m": 0.263,
+   "radius_m": 0.083,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 617,
+   "lod_of": "clover_red_c"
+  },
+  "clover_red_d": {
+   "species": "clover_red",
+   "variant": "d",
+   "lod": 0,
+   "ko": "붉은토끼풀(붉은클로버)",
+   "height_m": 0.314,
+   "radius_m": 0.078,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 2859
+  },
+  "clover_red_d_lod1": {
+   "species": "clover_red",
+   "variant": "d",
+   "lod": 1,
+   "ko": "붉은토끼풀(붉은클로버)",
+   "height_m": 0.311,
+   "radius_m": 0.08,
+   "weight": 0.8,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 617,
+   "lod_of": "clover_red_d"
+  },
+  "clover_white_a": {
+   "species": "clover_white",
+   "variant": "a",
+   "lod": 0,
+   "ko": "토끼풀(흰클로버)",
+   "height_m": 0.225,
+   "radius_m": 0.201,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 3457
+  },
+  "clover_white_a_lod1": {
+   "species": "clover_white",
+   "variant": "a",
+   "lod": 1,
+   "ko": "토끼풀(흰클로버)",
+   "height_m": 0.178,
+   "radius_m": 0.198,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 849,
+   "lod_of": "clover_white_a"
+  },
+  "clover_white_b": {
+   "species": "clover_white",
+   "variant": "b",
+   "lod": 0,
+   "ko": "토끼풀(흰클로버)",
+   "height_m": 0.213,
+   "radius_m": 0.249,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 4643
+  },
+  "clover_white_b_lod1": {
+   "species": "clover_white",
+   "variant": "b",
+   "lod": 1,
+   "ko": "토끼풀(흰클로버)",
+   "height_m": 0.22,
+   "radius_m": 0.232,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 1149,
+   "lod_of": "clover_white_b"
+  },
+  "clover_white_c": {
+   "species": "clover_white",
+   "variant": "c",
+   "lod": 0,
+   "ko": "토끼풀(흰클로버)",
+   "height_m": 0.225,
+   "radius_m": 0.159,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 2394
+  },
+  "clover_white_c_lod1": {
+   "species": "clover_white",
+   "variant": "c",
+   "lod": 1,
+   "ko": "토끼풀(흰클로버)",
+   "height_m": 0.219,
+   "radius_m": 0.162,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.1
+   },
+   "tris": 651,
+   "lod_of": "clover_white_c"
+  },
+  "lavender_a": {
+   "species": "lavender",
+   "variant": "a",
+   "lod": 0,
+   "ko": "라벤더",
+   "height_m": 0.496,
+   "radius_m": 0.113,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 5544
+  },
+  "lavender_a_lod1": {
+   "species": "lavender",
+   "variant": "a",
+   "lod": 1,
+   "ko": "라벤더",
+   "height_m": 0.478,
+   "radius_m": 0.104,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 1652,
+   "lod_of": "lavender_a"
+  },
+  "lavender_b": {
+   "species": "lavender",
+   "variant": "b",
+   "lod": 0,
+   "ko": "라벤더",
+   "height_m": 0.583,
+   "radius_m": 0.176,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 4656
+  },
+  "lavender_b_lod1": {
+   "species": "lavender",
+   "variant": "b",
+   "lod": 1,
+   "ko": "라벤더",
+   "height_m": 0.536,
+   "radius_m": 0.149,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 1320,
+   "lod_of": "lavender_b"
+  },
+  "lavender_c": {
+   "species": "lavender",
+   "variant": "c",
+   "lod": 0,
+   "ko": "라벤더",
+   "height_m": 0.456,
+   "radius_m": 0.175,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 3600
+  },
+  "lavender_c_lod1": {
+   "species": "lavender",
+   "variant": "c",
+   "lod": 1,
+   "ko": "라벤더",
+   "height_m": 0.457,
+   "radius_m": 0.169,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 1020,
+   "lod_of": "lavender_c"
+  },
+  "lavender_d": {
+   "species": "lavender",
+   "variant": "d",
+   "lod": 0,
+   "ko": "라벤더",
+   "height_m": 0.458,
+   "radius_m": 0.103,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 5760
+  },
+  "lavender_d_lod1": {
+   "species": "lavender",
+   "variant": "d",
+   "lod": 1,
+   "ko": "라벤더",
+   "height_m": 0.463,
+   "radius_m": 0.095,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 1588,
+   "lod_of": "lavender_d"
+  },
+  "foxglove_a": {
+   "species": "foxglove",
+   "variant": "a",
+   "lod": 0,
+   "ko": "디기탈리스(폭스글러브)",
+   "height_m": 1.367,
+   "radius_m": 0.2,
+   "weight": 0.35,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 4518
+  },
+  "foxglove_b": {
+   "species": "foxglove",
+   "variant": "b",
+   "lod": 0,
+   "ko": "디기탈리스(폭스글러브)",
+   "height_m": 1.468,
+   "radius_m": 0.178,
+   "weight": 0.35,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 5350
+  },
+  "foxglove_c": {
+   "species": "foxglove",
+   "variant": "c",
+   "lod": 0,
+   "ko": "디기탈리스(폭스글러브)",
+   "height_m": 1.144,
+   "radius_m": 0.207,
+   "weight": 0.35,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 4102
+  },
+  "foxglove_d": {
+   "species": "foxglove",
+   "variant": "d",
+   "lod": 0,
+   "ko": "디기탈리스(폭스글러브)",
+   "height_m": 1.386,
+   "radius_m": 0.201,
+   "weight": 0.35,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 4934
+  },
+  "tulip_a": {
+   "species": "tulip",
+   "variant": "a",
+   "lod": 0,
+   "ko": "튤립",
+   "height_m": 0.461,
+   "radius_m": 0.15,
+   "weight": 0.25,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.45
+   },
+   "tris": 1122
+  },
+  "tulip_b": {
+   "species": "tulip",
+   "variant": "b",
+   "lod": 0,
+   "ko": "튤립",
+   "height_m": 0.538,
+   "radius_m": 0.152,
+   "weight": 0.25,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.45
+   },
+   "tris": 1202
+  },
+  "tulip_c": {
+   "species": "tulip",
+   "variant": "c",
+   "lod": 0,
+   "ko": "튤립",
+   "height_m": 0.428,
+   "radius_m": 0.165,
+   "weight": 0.25,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.45
+   },
+   "tris": 1122
+  },
+  "tulip_d": {
+   "species": "tulip",
+   "variant": "d",
+   "lod": 0,
+   "ko": "튤립",
+   "height_m": 0.496,
+   "radius_m": 0.154,
+   "weight": 0.25,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.45
+   },
+   "tris": 1202
+  },
+  "sunflower_a": {
+   "species": "sunflower",
+   "variant": "a",
+   "lod": 0,
+   "ko": "해바라기",
+   "height_m": 1.121,
+   "radius_m": 0.248,
+   "weight": 0.3,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 2792
+  },
+  "sunflower_b": {
+   "species": "sunflower",
+   "variant": "b",
+   "lod": 0,
+   "ko": "해바라기",
+   "height_m": 1.336,
+   "radius_m": 0.248,
+   "weight": 0.3,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 2792
+  },
+  "sunflower_c": {
+   "species": "sunflower",
+   "variant": "c",
+   "lod": 0,
+   "ko": "해바라기",
+   "height_m": 0.925,
+   "radius_m": 0.25,
+   "weight": 0.3,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 2792
+  },
+  "sunflower_d": {
+   "species": "sunflower",
+   "variant": "d",
+   "lod": 0,
+   "ko": "해바라기",
+   "height_m": 1.2,
+   "radius_m": 0.253,
+   "weight": 0.3,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 2792
+  },
+  "bluebell_a": {
+   "species": "bluebell",
+   "variant": "a",
+   "lod": 0,
+   "ko": "블루벨",
+   "height_m": 0.283,
+   "radius_m": 0.193,
+   "weight": 0.45,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 2504
+  },
+  "bluebell_b": {
+   "species": "bluebell",
+   "variant": "b",
+   "lod": 0,
+   "ko": "블루벨",
+   "height_m": 0.367,
+   "radius_m": 0.204,
+   "weight": 0.45,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 4012
+  },
+  "bluebell_c": {
+   "species": "bluebell",
+   "variant": "c",
+   "lod": 0,
+   "ko": "블루벨",
+   "height_m": 0.304,
+   "radius_m": 0.185,
+   "weight": 0.45,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 4728
+  },
+  "bluebell_d": {
+   "species": "bluebell",
+   "variant": "d",
+   "lod": 0,
+   "ko": "블루벨",
+   "height_m": 0.338,
+   "radius_m": 0.174,
+   "weight": 0.45,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 4408
+  },
+  "lupine_a": {
+   "species": "lupine",
+   "variant": "a",
+   "lod": 0,
+   "ko": "루피너스",
+   "height_m": 0.885,
+   "radius_m": 0.254,
+   "weight": 0.35,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 5195
+  },
+  "lupine_b": {
+   "species": "lupine",
+   "variant": "b",
+   "lod": 0,
+   "ko": "루피너스",
+   "height_m": 0.819,
+   "radius_m": 0.269,
+   "weight": 0.35,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 4843
+  },
+  "lupine_c": {
+   "species": "lupine",
+   "variant": "c",
+   "lod": 0,
+   "ko": "루피너스",
+   "height_m": 0.955,
+   "radius_m": 0.254,
+   "weight": 0.35,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 5459
+  },
+  "lupine_d": {
+   "species": "lupine",
+   "variant": "d",
+   "lod": 0,
+   "ko": "루피너스",
+   "height_m": 0.889,
+   "radius_m": 0.276,
+   "weight": 0.35,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 4931
+  },
+  "rose_wild_a": {
+   "species": "rose_wild",
+   "variant": "a",
+   "lod": 0,
+   "ko": "들장미",
+   "height_m": 0.557,
+   "radius_m": 0.543,
+   "weight": 0.35,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 5948
+  },
+  "rose_wild_b": {
+   "species": "rose_wild",
+   "variant": "b",
+   "lod": 0,
+   "ko": "들장미",
+   "height_m": 0.499,
+   "radius_m": 0.321,
+   "weight": 0.35,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 5042
+  },
+  "rose_wild_c": {
+   "species": "rose_wild",
+   "variant": "c",
+   "lod": 0,
+   "ko": "들장미",
+   "height_m": 0.637,
+   "radius_m": 0.572,
+   "weight": 0.35,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 7170
+  },
+  "rose_wild_d": {
+   "species": "rose_wild",
+   "variant": "d",
+   "lod": 0,
+   "ko": "들장미",
+   "height_m": 0.56,
+   "radius_m": 0.413,
+   "weight": 0.35,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 5468
+  },
+  "forget_me_not_a": {
+   "species": "forget_me_not",
+   "variant": "a",
+   "lod": 0,
+   "ko": "물망초",
+   "height_m": 0.138,
+   "radius_m": 0.078,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 6208
+  },
+  "forget_me_not_b": {
+   "species": "forget_me_not",
+   "variant": "b",
+   "lod": 0,
+   "ko": "물망초",
+   "height_m": 0.131,
+   "radius_m": 0.073,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 7456
+  },
+  "forget_me_not_c": {
+   "species": "forget_me_not",
+   "variant": "c",
+   "lod": 0,
+   "ko": "물망초",
+   "height_m": 0.13,
+   "radius_m": 0.077,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 4504
+  },
+  "forget_me_not_d": {
+   "species": "forget_me_not",
+   "variant": "d",
+   "lod": 0,
+   "ko": "물망초",
+   "height_m": 0.133,
+   "radius_m": 0.073,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 6552
+  },
+  "cosmos_a": {
+   "species": "cosmos",
+   "variant": "a",
+   "lod": 0,
+   "ko": "코스모스",
+   "height_m": 1.046,
+   "radius_m": 0.166,
+   "weight": 0.5,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 2413
+  },
+  "cosmos_b": {
+   "species": "cosmos",
+   "variant": "b",
+   "lod": 0,
+   "ko": "코스모스",
+   "height_m": 1.232,
+   "radius_m": 0.233,
+   "weight": 0.5,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 2413
+  },
+  "cosmos_c": {
+   "species": "cosmos",
+   "variant": "c",
+   "lod": 0,
+   "ko": "코스모스",
+   "height_m": 0.922,
+   "radius_m": 0.167,
+   "weight": 0.5,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 2413
+  },
+  "cosmos_d": {
+   "species": "cosmos",
+   "variant": "d",
+   "lod": 0,
+   "ko": "코스모스",
+   "height_m": 1.067,
+   "radius_m": 0.193,
+   "weight": 0.5,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.7
+   },
+   "tris": 2061
+  },
+  "echinacea_a": {
+   "species": "echinacea",
+   "variant": "a",
+   "lod": 0,
+   "ko": "에키네시아",
+   "height_m": 0.843,
+   "radius_m": 0.11,
+   "weight": 0.3,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 1067
+  },
+  "echinacea_b": {
+   "species": "echinacea",
+   "variant": "b",
+   "lod": 0,
+   "ko": "에키네시아",
+   "height_m": 0.925,
+   "radius_m": 0.127,
+   "weight": 0.3,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 1019
+  },
+  "echinacea_c": {
+   "species": "echinacea",
+   "variant": "c",
+   "lod": 0,
+   "ko": "에키네시아",
+   "height_m": 0.762,
+   "radius_m": 0.114,
+   "weight": 0.3,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 1091
+  },
+  "echinacea_d": {
+   "species": "echinacea",
+   "variant": "d",
+   "lod": 0,
+   "ko": "에키네시아",
+   "height_m": 0.911,
+   "radius_m": 0.125,
+   "weight": 0.3,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 1043
+  },
+  "queen_annes_lace_a": {
+   "species": "queen_annes_lace",
+   "variant": "a",
+   "lod": 0,
+   "ko": "야생당근(퀸앤스레이스)",
+   "height_m": 1.026,
+   "radius_m": 0.126,
+   "weight": 0.55,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 4709
+  },
+  "queen_annes_lace_b": {
+   "species": "queen_annes_lace",
+   "variant": "b",
+   "lod": 0,
+   "ko": "야생당근(퀸앤스레이스)",
+   "height_m": 0.893,
+   "radius_m": 0.152,
+   "weight": 0.55,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 4069
+  },
+  "queen_annes_lace_c": {
+   "species": "queen_annes_lace",
+   "variant": "c",
+   "lod": 0,
+   "ko": "야생당근(퀸앤스레이스)",
+   "height_m": 1.152,
+   "radius_m": 0.179,
+   "weight": 0.55,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 6521
+  },
+  "queen_annes_lace_d": {
+   "species": "queen_annes_lace",
+   "variant": "d",
+   "lod": 0,
+   "ko": "야생당근(퀸앤스레이스)",
+   "height_m": 0.757,
+   "radius_m": 0.164,
+   "weight": 0.55,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 5613
+  },
+  "chamomile_a": {
+   "species": "chamomile",
+   "variant": "a",
+   "lod": 0,
+   "ko": "카모마일",
+   "height_m": 0.376,
+   "radius_m": 0.097,
+   "weight": 0.6,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1552
+  },
+  "chamomile_b": {
+   "species": "chamomile",
+   "variant": "b",
+   "lod": 0,
+   "ko": "카모마일",
+   "height_m": 0.431,
+   "radius_m": 0.097,
+   "weight": 0.6,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1552
+  },
+  "chamomile_c": {
+   "species": "chamomile",
+   "variant": "c",
+   "lod": 0,
+   "ko": "카모마일",
+   "height_m": 0.309,
+   "radius_m": 0.117,
+   "weight": 0.6,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1276
+  },
+  "chamomile_d": {
+   "species": "chamomile",
+   "variant": "d",
+   "lod": 0,
+   "ko": "카모마일",
+   "height_m": 0.394,
+   "radius_m": 0.095,
+   "weight": 0.6,
+   "habitat": "path",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 1360
+  },
+  "yarrow_a": {
+   "species": "yarrow",
+   "variant": "a",
+   "lod": 0,
+   "ko": "서양톱풀",
+   "height_m": 0.752,
+   "radius_m": 0.096,
+   "weight": 0.6,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 5417
+  },
+  "yarrow_b": {
+   "species": "yarrow",
+   "variant": "b",
+   "lod": 0,
+   "ko": "서양톱풀",
+   "height_m": 0.866,
+   "radius_m": 0.098,
+   "weight": 0.6,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 6043
+  },
+  "yarrow_c": {
+   "species": "yarrow",
+   "variant": "c",
+   "lod": 0,
+   "ko": "서양톱풀",
+   "height_m": 0.644,
+   "radius_m": 0.1,
+   "weight": 0.6,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 4791
+  },
+  "yarrow_d": {
+   "species": "yarrow",
+   "variant": "d",
+   "lod": 0,
+   "ko": "서양톱풀",
+   "height_m": 0.816,
+   "radius_m": 0.097,
+   "weight": 0.6,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 5417
+  },
+  "marigold_a": {
+   "species": "marigold",
+   "variant": "a",
+   "lod": 0,
+   "ko": "금잔화",
+   "height_m": 0.389,
+   "radius_m": 0.106,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 3653
+  },
+  "marigold_b": {
+   "species": "marigold",
+   "variant": "b",
+   "lod": 0,
+   "ko": "금잔화",
+   "height_m": 0.462,
+   "radius_m": 0.092,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 3653
+  },
+  "marigold_c": {
+   "species": "marigold",
+   "variant": "c",
+   "lod": 0,
+   "ko": "금잔화",
+   "height_m": 0.365,
+   "radius_m": 0.094,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 3653
+  },
+  "marigold_d": {
+   "species": "marigold",
+   "variant": "d",
+   "lod": 0,
+   "ko": "금잔화",
+   "height_m": 0.437,
+   "radius_m": 0.092,
+   "weight": 0.4,
+   "habitat": "garden",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 2061
+  }
+ },
+ "species": {
+  "daisy": {
+   "ko": "불란서국화(옥스아이데이지)",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 1.0,
+   "habitat": "meadow"
+  },
+  "poppy": {
+   "ko": "개양귀비",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.8,
+   "habitat": "meadow"
+  },
+  "cornflower": {
+   "ko": "수레국화",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.8,
+   "habitat": "meadow"
+  },
+  "buttercup": {
+   "ko": "미나리아재비",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.9,
+   "habitat": "meadow"
+  },
+  "dandelion": {
+   "ko": "서양민들레",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.9,
+   "habitat": "path"
+  },
+  "clover_red": {
+   "ko": "붉은토끼풀(붉은클로버)",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.8,
+   "habitat": "meadow"
+  },
+  "clover_white": {
+   "ko": "토끼풀(흰클로버)",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 1.0,
+   "habitat": "meadow"
+  },
+  "lavender": {
+   "ko": "라벤더",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.4,
+   "habitat": "garden"
+  },
+  "foxglove": {
+   "ko": "디기탈리스(폭스글러브)",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.35,
+   "habitat": "forest_edge"
+  },
+  "tulip": {
+   "ko": "튤립",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.25,
+   "habitat": "garden"
+  },
+  "sunflower": {
+   "ko": "해바라기",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.3,
+   "habitat": "garden"
+  },
+  "bluebell": {
+   "ko": "블루벨",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.45,
+   "habitat": "shade"
+  },
+  "lupine": {
+   "ko": "루피너스",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.35,
+   "habitat": "meadow"
+  },
+  "rose_wild": {
+   "ko": "들장미",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.35,
+   "habitat": "forest_edge"
+  },
+  "forget_me_not": {
+   "ko": "물망초",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.5,
+   "habitat": "wet"
+  },
+  "cosmos": {
+   "ko": "코스모스",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.5,
+   "habitat": "path"
+  },
+  "echinacea": {
+   "ko": "에키네시아",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.3,
+   "habitat": "garden"
+  },
+  "queen_annes_lace": {
+   "ko": "야생당근(퀸앤스레이스)",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.55,
+   "habitat": "meadow"
+  },
+  "chamomile": {
+   "ko": "카모마일",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.6,
+   "habitat": "path"
+  },
+  "yarrow": {
+   "ko": "서양톱풀",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.6,
+   "habitat": "meadow"
+  },
+  "marigold": {
+   "ko": "금잔화",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.4,
+   "habitat": "garden"
+  }
+ }
+}

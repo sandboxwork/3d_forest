@@ -1,0 +1,443 @@
+{
+ "lights": [
+  {
+   "name": "lamp_bd_1",
+   "pos": [
+    1.801,
+    1.396,
+    -1.31
+   ],
+   "color": [
+    1.0,
+    0.68,
+    0.36
+   ],
+   "intensity": 0.7,
+   "distance": 4.5
+  },
+  {
+   "name": "lamp_bd_2",
+   "pos": [
+    1.97,
+    1.189,
+    -3.06
+   ],
+   "color": [
+    1.0,
+    0.68,
+    0.36
+   ],
+   "intensity": 1.0,
+   "distance": 6.0
+  },
+  {
+   "name": "lamp_bd_3",
+   "pos": [
+    4.042,
+    1.145,
+    -3.05
+   ],
+   "color": [
+    1.0,
+    0.68,
+    0.36
+   ],
+   "intensity": 0.9,
+   "distance": 5.0
+  },
+  {
+   "name": "lamp_bd_4",
+   "pos": [
+    4.13,
+    1.33,
+    0.45
+   ],
+   "color": [
+    1.0,
+    0.68,
+    0.36
+   ],
+   "intensity": 1.2,
+   "distance": 6.0
+  },
+  {
+   "name": "lamp_bd_5",
+   "pos": [
+    4.167,
+    1.805,
+    1.727
+   ],
+   "color": [
+    1.0,
+    0.68,
+    0.36
+   ],
+   "intensity": 0.6,
+   "distance": 4.0
+  },
+  {
+   "name": "lamp_bd_6",
+   "pos": [
+    1.301,
+    1.213,
+    2.0
+   ],
+   "color": [
+    1.0,
+    0.68,
+    0.36
+   ],
+   "intensity": 1.5,
+   "distance": 7.0
+  },
+  {
+   "name": "lamp_bd_7",
+   "pos": [
+    4.082,
+    1.87,
+    -0.35
+   ],
+   "color": [
+    1.0,
+    0.68,
+    0.36
+   ],
+   "intensity": 0.8,
+   "distance": 5.0
+  },
+  {
+   "name": "lamp_bd_8",
+   "pos": [
+    1.232,
+    2.0,
+    1.45
+   ],
+   "color": [
+    1.0,
+    0.68,
+    0.36
+   ],
+   "intensity": 0.8,
+   "distance": 5.0
+  }
+ ],
+ "colliders": [
+  {
+   "cx": 3.02,
+   "cz": -2.18,
+   "hx": 0.82,
+   "hz": 1.03,
+   "top": 1.0,
+   "bottom": 0.3,
+   "name": "bed"
+  },
+  {
+   "cx": 1.965,
+   "cz": 2.35,
+   "hx": 0.33,
+   "hz": 0.65,
+   "top": 2.4,
+   "bottom": 0.3,
+   "name": "wardrobe"
+  },
+  {
+   "cx": 1.93,
+   "cz": -0.95,
+   "hx": 0.275,
+   "hz": 0.53,
+   "top": 1.22,
+   "bottom": 0.3,
+   "name": "dresser"
+  },
+  {
+   "cx": 1.96,
+   "cz": -3.03,
+   "hx": 0.245,
+   "hz": 0.215,
+   "top": 0.93,
+   "bottom": 0.3,
+   "name": "bedside_left"
+  },
+  {
+   "cx": 4.04,
+   "cz": -3.03,
+   "hx": 0.225,
+   "hz": 0.215,
+   "top": 0.93,
+   "bottom": 0.3,
+   "name": "bedside_right"
+  },
+  {
+   "cx": 3.95,
+   "cz": 0.9,
+   "hx": 0.325,
+   "hz": 0.6,
+   "top": 1.07,
+   "bottom": 0.3,
+   "name": "desk"
+  },
+  {
+   "cx": 3.3,
+   "cz": 0.95,
+   "hx": 0.271,
+   "hz": 0.271,
+   "top": 0.8,
+   "bottom": 0.3,
+   "name": "desk_chair"
+  },
+  {
+   "cx": 3.02,
+   "cz": -0.66,
+   "hx": 0.56,
+   "hz": 0.26,
+   "top": 0.77,
+   "bottom": 0.3,
+   "name": "trunk"
+  },
+  {
+   "cx": 3.6,
+   "cz": 2.55,
+   "hx": 0.54,
+   "hz": 0.615,
+   "top": 0.92,
+   "bottom": 0.3,
+   "name": "rocking_chair"
+  },
+  {
+   "cx": 2.85,
+   "cz": 2.99,
+   "hx": 0.53,
+   "hz": 0.27,
+   "top": 1.36,
+   "bottom": 0.3,
+   "name": "washstand"
+  },
+  {
+   "cx": 0.98,
+   "cz": 3.0,
+   "hx": 0.25,
+   "hz": 0.25,
+   "top": 2.18,
+   "bottom": 0.3,
+   "name": "coat_rack"
+  },
+  {
+   "cx": 1.2,
+   "cz": 1.85,
+   "hx": 0.15,
+   "hz": 0.15,
+   "top": 1.25,
+   "bottom": 0.3,
+   "name": "umbrella_stand"
+  },
+  {
+   "cx": 4.01,
+   "cz": -1.62,
+   "hx": 0.19,
+   "hz": 0.18,
+   "top": 0.75,
+   "bottom": 0.3,
+   "name": "fern_stand"
+  },
+  {
+   "cx": 4.0,
+   "cz": -0.95,
+   "hx": 0.1,
+   "hz": 0.1,
+   "top": 0.85,
+   "bottom": 0.3,
+   "name": "geranium_pot"
+  }
+ ],
+ "interactables": [
+  {
+   "name": "bed",
+   "pos": [
+    3.02,
+    1.05,
+    -1.98
+   ],
+   "label": "조각보 이불이 덮인 침대"
+  },
+  {
+   "name": "wardrobe",
+   "pos": [
+    1.965,
+    1.6,
+    2.35
+   ],
+   "label": "조각된 옷장 - 문이 살짝 열려 있다"
+  },
+  {
+   "name": "dresser",
+   "pos": [
+    1.93,
+    1.5,
+    -0.95
+   ],
+   "label": "거울 달린 서랍장"
+  },
+  {
+   "name": "bedside_lamp",
+   "pos": [
+    1.96,
+    1.25,
+    -3.0
+   ],
+   "label": "침대 옆 석유 램프"
+  },
+  {
+   "name": "bedside_candle",
+   "pos": [
+    4.04,
+    1.1,
+    -3.0
+   ],
+   "label": "침대 옆 촛불과 책"
+  },
+  {
+   "name": "desk",
+   "pos": [
+    3.95,
+    1.25,
+    0.9
+   ],
+   "label": "편지와 잉크가 놓인 책상"
+  },
+  {
+   "name": "trunk",
+   "pos": [
+    3.02,
+    0.85,
+    -0.66
+   ],
+   "label": "쇠띠를 두른 침대 발치 트렁크"
+  },
+  {
+   "name": "rocking_chair",
+   "pos": [
+    3.6,
+    1.1,
+    2.55
+   ],
+   "label": "뜨개 숄이 걸린 흔들의자"
+  },
+  {
+   "name": "washstand",
+   "pos": [
+    2.85,
+    1.35,
+    2.9
+   ],
+   "label": "도자기 세면대와 물주전자"
+  },
+  {
+   "name": "shelf",
+   "pos": [
+    4.1,
+    1.75,
+    1.95
+   ],
+   "label": "작은 장식품 선반"
+  },
+  {
+   "name": "coat_rack",
+   "pos": [
+    0.98,
+    1.6,
+    3.0
+   ],
+   "label": "외투와 모자가 걸린 코트 랙"
+  },
+  {
+   "name": "entry_lantern",
+   "pos": [
+    1.2,
+    1.4,
+    2.1
+   ],
+   "label": "현관 선반 위의 등불과 우편물"
+  },
+  {
+   "name": "boot_tray",
+   "pos": [
+    1.2,
+    0.6,
+    2.35
+   ],
+   "label": "장화 트레이"
+  },
+  {
+   "name": "hat_rail",
+   "pos": [
+    1.3,
+    1.95,
+    2.2
+   ],
+   "label": "밀짚모자와 가방이 걸린 모자걸이"
+  },
+  {
+   "name": "welcome_mat",
+   "pos": [
+    0.0,
+    0.4,
+    2.78
+   ],
+   "label": "환영 매트"
+  },
+  {
+   "name": "umbrella_stand",
+   "pos": [
+    1.2,
+    0.9,
+    1.85
+   ],
+   "label": "우산꽂이"
+  },
+  {
+   "name": "sconce_bedroom",
+   "pos": [
+    4.1,
+    1.9,
+    -0.35
+   ],
+   "label": "벽에 걸린 촛대 등"
+  },
+  {
+   "name": "sconce_entry",
+   "pos": [
+    1.3,
+    2.0,
+    1.45
+   ],
+   "label": "현관 벽 촛대 등"
+  },
+  {
+   "name": "fern",
+   "pos": [
+    4.0,
+    1.05,
+    -1.62
+   ],
+   "label": "고사리가 놓인 등나무 받침대"
+  },
+  {
+   "name": "geranium",
+   "pos": [
+    4.0,
+    0.9,
+    -0.95
+   ],
+   "label": "붉은 제라늄 화분"
+  },
+  {
+   "name": "pothos",
+   "pos": [
+    2.75,
+    2.3,
+    1.55
+   ],
+   "label": "들보에 매달린 포토스 화분"
+  }
+ ]
+}

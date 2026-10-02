@@ -1,0 +1,232 @@
+{
+ "forward": "-Y blender (+Z three.js)",
+ "left_is": "+X blender (+X three.js)",
+ "root": "pelvis",
+ "hierarchy": {
+  "pelvis": [
+   "torso",
+   "leg_l_upper",
+   "leg_r_upper"
+  ],
+  "torso": [
+   "neck_head",
+   "arm_l_upper",
+   "arm_r_upper"
+  ],
+  "neck_head": [
+   "jaw"
+  ],
+  "arm_l_upper": [
+   "arm_l_lower"
+  ],
+  "arm_l_lower": [
+   "hand_l"
+  ],
+  "arm_r_upper": [
+   "arm_r_lower"
+  ],
+  "arm_r_lower": [
+   "hand_r"
+  ],
+  "leg_l_upper": [
+   "leg_l_lower"
+  ],
+  "leg_l_lower": [
+   "foot_l"
+  ],
+  "leg_r_upper": [
+   "leg_r_lower"
+  ],
+  "leg_r_lower": [
+   "foot_r"
+  ],
+  "hand_r": [
+   "tool_fork"
+  ]
+ },
+ "name": "villager_farmer",
+ "role_ko": "농부",
+ "height_m": 1.78,
+ "height_with_headwear_m": 1.835,
+ "shoulder_height": 1.451,
+ "head_center_height": 1.66,
+ "eye_height": 1.66,
+ "units": "m",
+ "up": "Y (three.js, exported)",
+ "front": "+Z (three.js)",
+ "left_side": "+X",
+ "pivots": {
+  "pelvis": [
+   0.0,
+   0.9345,
+   -0.0
+  ],
+  "torso": [
+   0.0,
+   1.0769,
+   0.0
+  ],
+  "neck_head": [
+   0.0,
+   1.424,
+   -0.0
+  ],
+  "jaw": [
+   0.0,
+   1.6296,
+   -0.0
+  ],
+  "arm_l_upper": [
+   0.1678,
+   1.3998,
+   -0.0
+  ],
+  "arm_l_lower": [
+   0.2114,
+   1.1254,
+   0.0194
+  ],
+  "hand_l": [
+   0.2403,
+   0.8611,
+   0.0956
+  ],
+  "leg_l_upper": [
+   0.0936,
+   0.9345,
+   -0.0
+  ],
+  "leg_l_lower": [
+   0.0976,
+   0.5073,
+   0.006
+  ],
+  "foot_l": [
+   0.1056,
+   0.0712,
+   -0.004
+  ],
+  "arm_r_upper": [
+   -0.1678,
+   1.3998,
+   -0.0
+  ],
+  "arm_r_lower": [
+   -0.2114,
+   1.1254,
+   0.0194
+  ],
+  "hand_r": [
+   -0.2402,
+   0.9721,
+   0.2479
+  ],
+  "leg_r_upper": [
+   -0.0936,
+   0.9345,
+   -0.0
+  ],
+  "leg_r_lower": [
+   -0.0976,
+   0.5073,
+   0.006
+  ],
+  "foot_r": [
+   -0.1056,
+   0.0712,
+   -0.004
+  ]
+ },
+ "parents": {
+  "pelvis": null,
+  "torso": "pelvis",
+  "neck_head": "torso",
+  "jaw": "neck_head",
+  "arm_l_upper": "torso",
+  "arm_l_lower": "arm_l_upper",
+  "hand_l": "arm_l_lower",
+  "arm_r_upper": "torso",
+  "arm_r_lower": "arm_r_upper",
+  "hand_r": "arm_r_lower",
+  "leg_l_upper": "pelvis",
+  "leg_l_lower": "leg_l_upper",
+  "foot_l": "leg_l_lower",
+  "leg_r_upper": "pelvis",
+  "leg_r_lower": "leg_r_upper",
+  "foot_r": "leg_r_lower",
+  "tool_fork": "hand_r"
+ },
+ "rotation_convention": "all parts rotate about their own pivot (origin). Rotation about +X axis (same sign in Blender and three.js): NEGATIVE angle swings a hanging limb FORWARD (+Z three / -Y blender), positive swings it BACKWARD. Knee: positive x bends the shin backward (correct); elbow: negative x bends the forearm forward (correct). Parts whose mass is ABOVE the pivot (torso, neck_head) lean/nod FORWARD with POSITIVE x. Jaw: positive x opens the mouth. Foot: positive x points the toes DOWN.",
+ "walk": {
+  "hip_swing_deg": 28,
+  "knee_bend_deg": 42,
+  "arm_swing_deg": 24,
+  "stride_m": 0.72,
+  "cycle_s": 1.05
+ },
+ "walk_signs": {
+  "leg_upper_forward": "-x",
+  "knee_flex": "+x (lower leg)",
+  "arm_upper_forward": "-x",
+  "elbow_flex": "-x (lower arm)",
+  "jaw_open": "+x",
+  "foot_toe_up": "-x",
+  "foot_toe_down": "+x",
+  "torso_lean_forward": "+x",
+  "head_nod_down": "+x",
+  "torso_twist": "+/-z",
+  "arm_abduct_three_js": "left arm outward = +rotation.z, right arm outward = -rotation.z (derived by math, not rendered)"
+ },
+ "jaw_open_max_deg": 10,
+ "sit": {
+  "seat_height_m": 0.427,
+  "pelvis_drop_m": 0.427,
+  "pelvis_back_m": 0.03,
+  "leg_upper_rot_x_deg": -90,
+  "leg_lower_rot_x_deg": 90,
+  "foot_rot_x_deg": 0,
+  "torso_rot_x_deg": -5,
+  "arm_upper_rot_x_deg": -25,
+  "arm_lower_rot_x_deg": -60,
+  "note": "sitting: pelvis goes DOWN by pelvis_drop_m (hip centre ends at knee height, thighs horizontal) and BACK by pelvis_back_m (+Y blender = -Z three); thighs forward = NEGATIVE x-rotation, shins +x; seat surface at seat_height_m"
+ },
+ "materials_recolorable": [
+  "skin",
+  "hair",
+  "cloth_main",
+  "cloth_alt",
+  "cloth_accent",
+  "shoes"
+ ],
+ "eye_materials": [
+  "eye_white",
+  "iris",
+  "pupil"
+ ],
+ "props": [
+  "tool_fork"
+ ],
+ "prop_note": "hand-held prop parts (tool_fork) are parented to the grip hand with pivot at the grip; keep that arm (shoulder swing, elbow) near its rest pose while carrying; hide/show the prop part freely.",
+ "triangles": 15678,
+ "tris_per_part": {
+  "pelvis": 1002,
+  "torso": 2244,
+  "neck_head": 5970,
+  "jaw": 704,
+  "arm_l_upper": 240,
+  "arm_l_lower": 682,
+  "hand_l": 360,
+  "arm_r_upper": 240,
+  "arm_r_lower": 682,
+  "hand_r": 360,
+  "leg_l_upper": 296,
+  "leg_l_lower": 750,
+  "foot_l": 360,
+  "leg_r_upper": 386,
+  "leg_r_lower": 660,
+  "foot_r": 360,
+  "tool_fork": 382
+ },
+ "clothing_note": "",
+ "file_kb": 884
+}

@@ -1,0 +1,225 @@
+{
+ "forward": "-Y blender (+Z three.js)",
+ "left_is": "+X blender (+X three.js)",
+ "root": "pelvis",
+ "hierarchy": {
+  "pelvis": [
+   "torso",
+   "leg_l_upper",
+   "leg_r_upper"
+  ],
+  "torso": [
+   "neck_head",
+   "arm_l_upper",
+   "arm_r_upper"
+  ],
+  "neck_head": [
+   "jaw"
+  ],
+  "arm_l_upper": [
+   "arm_l_lower"
+  ],
+  "arm_l_lower": [
+   "hand_l"
+  ],
+  "arm_r_upper": [
+   "arm_r_lower"
+  ],
+  "arm_r_lower": [
+   "hand_r"
+  ],
+  "leg_l_upper": [
+   "leg_l_lower"
+  ],
+  "leg_l_lower": [
+   "foot_l"
+  ],
+  "leg_r_upper": [
+   "leg_r_lower"
+  ],
+  "leg_r_lower": [
+   "foot_r"
+  ]
+ },
+ "name": "villager_elder_f",
+ "role_ko": "노인 (할머니)",
+ "height_m": 1.55,
+ "height_with_headwear_m": 1.564,
+ "shoulder_height": 1.263,
+ "head_center_height": 1.446,
+ "eye_height": 1.446,
+ "units": "m",
+ "up": "Y (three.js, exported)",
+ "front": "+Z (three.js)",
+ "left_side": "+X",
+ "pivots": {
+  "pelvis": [
+   0.0,
+   0.8138,
+   -0.0
+  ],
+  "torso": [
+   0.0,
+   0.9377,
+   0.0031
+  ],
+  "neck_head": [
+   0.0,
+   1.24,
+   0.0444
+  ],
+  "jaw": [
+   0.0,
+   1.419,
+   0.0692
+  ],
+  "arm_l_upper": [
+   0.1284,
+   1.219,
+   0.045
+  ],
+  "arm_l_lower": [
+   0.1664,
+   0.98,
+   0.0619
+  ],
+  "hand_l": [
+   0.1915,
+   0.7476,
+   0.1202
+  ],
+  "leg_l_upper": [
+   0.0868,
+   0.8138,
+   -0.0
+  ],
+  "leg_l_lower": [
+   0.0908,
+   0.4417,
+   0.006
+  ],
+  "foot_l": [
+   0.0988,
+   0.062,
+   -0.004
+  ],
+  "arm_r_upper": [
+   -0.1284,
+   1.219,
+   0.045
+  ],
+  "arm_r_lower": [
+   -0.1664,
+   0.98,
+   0.0619
+  ],
+  "hand_r": [
+   -0.1915,
+   0.7476,
+   0.1202
+  ],
+  "leg_r_upper": [
+   -0.0868,
+   0.8138,
+   -0.0
+  ],
+  "leg_r_lower": [
+   -0.0908,
+   0.4417,
+   0.006
+  ],
+  "foot_r": [
+   -0.0988,
+   0.062,
+   -0.004
+  ]
+ },
+ "parents": {
+  "pelvis": null,
+  "torso": "pelvis",
+  "neck_head": "torso",
+  "jaw": "neck_head",
+  "arm_l_upper": "torso",
+  "arm_l_lower": "arm_l_upper",
+  "hand_l": "arm_l_lower",
+  "arm_r_upper": "torso",
+  "arm_r_lower": "arm_r_upper",
+  "hand_r": "arm_r_lower",
+  "leg_l_upper": "pelvis",
+  "leg_l_lower": "leg_l_upper",
+  "foot_l": "leg_l_lower",
+  "leg_r_upper": "pelvis",
+  "leg_r_lower": "leg_r_upper",
+  "foot_r": "leg_r_lower"
+ },
+ "rotation_convention": "all parts rotate about their own pivot (origin). Rotation about +X axis (same sign in Blender and three.js): NEGATIVE angle swings a hanging limb FORWARD (+Z three / -Y blender), positive swings it BACKWARD. Knee: positive x bends the shin backward (correct); elbow: negative x bends the forearm forward (correct). Parts whose mass is ABOVE the pivot (torso, neck_head) lean/nod FORWARD with POSITIVE x. Jaw: positive x opens the mouth. Foot: positive x points the toes DOWN.",
+ "walk": {
+  "hip_swing_deg": 12,
+  "knee_bend_deg": 18,
+  "arm_swing_deg": 8,
+  "stride_m": 0.32,
+  "cycle_s": 1.5
+ },
+ "walk_signs": {
+  "leg_upper_forward": "-x",
+  "knee_flex": "+x (lower leg)",
+  "arm_upper_forward": "-x",
+  "elbow_flex": "-x (lower arm)",
+  "jaw_open": "+x",
+  "foot_toe_up": "-x",
+  "foot_toe_down": "+x",
+  "torso_lean_forward": "+x",
+  "head_nod_down": "+x",
+  "torso_twist": "+/-z",
+  "arm_abduct_three_js": "left arm outward = +rotation.z, right arm outward = -rotation.z (derived by math, not rendered)"
+ },
+ "jaw_open_max_deg": 10,
+ "sit": {
+  "seat_height_m": 0.362,
+  "pelvis_drop_m": 0.372,
+  "pelvis_back_m": 0.03,
+  "leg_upper_rot_x_deg": -90,
+  "leg_lower_rot_x_deg": 90,
+  "foot_rot_x_deg": 0,
+  "torso_rot_x_deg": -5,
+  "arm_upper_rot_x_deg": -25,
+  "arm_lower_rot_x_deg": -60,
+  "note": "sitting: pelvis goes DOWN by pelvis_drop_m (hip centre ends at knee height, thighs horizontal) and BACK by pelvis_back_m (+Y blender = -Z three); thighs forward = NEGATIVE x-rotation, shins +x; seat surface at seat_height_m"
+ },
+ "materials_recolorable": [
+  "skin",
+  "hair",
+  "cloth_main",
+  "cloth_alt",
+  "cloth_accent",
+  "shoes"
+ ],
+ "eye_materials": [
+  "eye_white",
+  "iris",
+  "pupil"
+ ],
+ "props": [],
+ "triangles": 12808,
+ "tris_per_part": {
+  "pelvis": 1292,
+  "torso": 1718,
+  "neck_head": 5014,
+  "jaw": 692,
+  "arm_l_upper": 240,
+  "arm_l_lower": 430,
+  "hand_l": 360,
+  "arm_r_upper": 240,
+  "arm_r_lower": 430,
+  "hand_r": 360,
+  "leg_l_upper": 220,
+  "leg_l_lower": 436,
+  "foot_l": 360,
+  "leg_r_upper": 220,
+  "leg_r_lower": 436,
+  "foot_r": 360
+ },
+ "clothing_note": "",
+ "walk_note": "skirt is rigid on the pelvis: keep hip swing small to avoid legs poking through",
+ "file_kb": 711
+}

@@ -1,0 +1,1038 @@
+{
+ "bundle": "plants_water_edge",
+ "parts": {
+  "cattail_a": {
+   "species": "cattail",
+   "variant": "a",
+   "lod": 0,
+   "ko": "부들",
+   "height_m": 2.011,
+   "radius_m": 0.702,
+   "weight": 0.8,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.45
+   },
+   "tris": 1160
+  },
+  "cattail_b": {
+   "species": "cattail",
+   "variant": "b",
+   "lod": 0,
+   "ko": "부들",
+   "height_m": 2.131,
+   "radius_m": 0.673,
+   "weight": 0.8,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.45
+   },
+   "tris": 646
+  },
+  "cattail_c": {
+   "species": "cattail",
+   "variant": "c",
+   "lod": 0,
+   "ko": "부들",
+   "height_m": 2.078,
+   "radius_m": 0.577,
+   "weight": 0.8,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.45
+   },
+   "tris": 1644
+  },
+  "reed_a": {
+   "species": "reed",
+   "variant": "a",
+   "lod": 0,
+   "ko": "갈대",
+   "height_m": 2.561,
+   "radius_m": 0.435,
+   "weight": 0.9,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 4821
+  },
+  "reed_b": {
+   "species": "reed",
+   "variant": "b",
+   "lod": 0,
+   "ko": "갈대",
+   "height_m": 2.494,
+   "radius_m": 0.458,
+   "weight": 0.9,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 2309
+  },
+  "reed_c": {
+   "species": "reed",
+   "variant": "c",
+   "lod": 0,
+   "ko": "갈대",
+   "height_m": 2.669,
+   "radius_m": 0.43,
+   "weight": 0.9,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 5277
+  },
+  "iris_yellow_a": {
+   "species": "iris_yellow",
+   "variant": "a",
+   "lod": 0,
+   "ko": "노랑꽃창포",
+   "height_m": 1.094,
+   "radius_m": 0.335,
+   "weight": 0.5,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 1101
+  },
+  "iris_yellow_b": {
+   "species": "iris_yellow",
+   "variant": "b",
+   "lod": 0,
+   "ko": "노랑꽃창포",
+   "height_m": 1.212,
+   "radius_m": 0.267,
+   "weight": 0.5,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 1320
+  },
+  "iris_yellow_c": {
+   "species": "iris_yellow",
+   "variant": "c",
+   "lod": 0,
+   "ko": "노랑꽃창포",
+   "height_m": 1.142,
+   "radius_m": 0.329,
+   "weight": 0.5,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.35
+   },
+   "tris": 1016
+  },
+  "lilypad_a": {
+   "species": "lilypad",
+   "variant": "a",
+   "lod": 0,
+   "ko": "수련 잎",
+   "height_m": 0.015,
+   "radius_m": 0.17,
+   "weight": 1.0,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 240
+  },
+  "lilypad_b": {
+   "species": "lilypad",
+   "variant": "b",
+   "lod": 0,
+   "ko": "수련 잎",
+   "height_m": 0.015,
+   "radius_m": 0.24,
+   "weight": 1.0,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 272
+  },
+  "lilypad_c": {
+   "species": "lilypad",
+   "variant": "c",
+   "lod": 0,
+   "ko": "수련 잎",
+   "height_m": 0.019,
+   "radius_m": 0.252,
+   "weight": 1.0,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 372
+  },
+  "lilypad_d": {
+   "species": "lilypad",
+   "variant": "d",
+   "lod": 0,
+   "ko": "수련 잎",
+   "height_m": 0.037,
+   "radius_m": 0.3,
+   "weight": 1.0,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 328
+  },
+  "waterlily_white_a": {
+   "species": "waterlily_white",
+   "variant": "a",
+   "lod": 0,
+   "ko": "흰수련",
+   "height_m": 0.057,
+   "radius_m": 0.186,
+   "weight": 0.35,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1000
+  },
+  "waterlily_white_b": {
+   "species": "waterlily_white",
+   "variant": "b",
+   "lod": 0,
+   "ko": "흰수련",
+   "height_m": 0.05,
+   "radius_m": 0.185,
+   "weight": 0.35,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1016
+  },
+  "waterlily_white_c": {
+   "species": "waterlily_white",
+   "variant": "c",
+   "lod": 0,
+   "ko": "흰수련",
+   "height_m": 0.062,
+   "radius_m": 0.18,
+   "weight": 0.35,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1096
+  },
+  "waterlily_white_d": {
+   "species": "waterlily_white",
+   "variant": "d",
+   "lod": 0,
+   "ko": "흰수련",
+   "height_m": 0.048,
+   "radius_m": 0.189,
+   "weight": 0.35,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 904
+  },
+  "waterlily_pink_a": {
+   "species": "waterlily_pink",
+   "variant": "a",
+   "lod": 0,
+   "ko": "분홍수련",
+   "height_m": 0.056,
+   "radius_m": 0.185,
+   "weight": 0.25,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1000
+  },
+  "waterlily_pink_b": {
+   "species": "waterlily_pink",
+   "variant": "b",
+   "lod": 0,
+   "ko": "분홍수련",
+   "height_m": 0.052,
+   "radius_m": 0.183,
+   "weight": 0.25,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1016
+  },
+  "waterlily_pink_c": {
+   "species": "waterlily_pink",
+   "variant": "c",
+   "lod": 0,
+   "ko": "분홍수련",
+   "height_m": 0.062,
+   "radius_m": 0.182,
+   "weight": 0.25,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1096
+  },
+  "waterlily_pink_d": {
+   "species": "waterlily_pink",
+   "variant": "d",
+   "lod": 0,
+   "ko": "분홍수련",
+   "height_m": 0.048,
+   "radius_m": 0.19,
+   "weight": 0.25,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 904
+  },
+  "marsh_marigold_a": {
+   "species": "marsh_marigold",
+   "variant": "a",
+   "lod": 0,
+   "ko": "동의나물",
+   "height_m": 0.334,
+   "radius_m": 0.192,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.2
+   },
+   "tris": 2820
+  },
+  "marsh_marigold_b": {
+   "species": "marsh_marigold",
+   "variant": "b",
+   "lod": 0,
+   "ko": "동의나물",
+   "height_m": 0.323,
+   "radius_m": 0.204,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.2
+   },
+   "tris": 3047
+  },
+  "marsh_marigold_c": {
+   "species": "marsh_marigold",
+   "variant": "c",
+   "lod": 0,
+   "ko": "동의나물",
+   "height_m": 0.286,
+   "radius_m": 0.223,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.2
+   },
+   "tris": 2514
+  },
+  "fern_lady_a": {
+   "species": "fern_lady",
+   "variant": "a",
+   "lod": 0,
+   "ko": "레이디펀(개고사리류)",
+   "height_m": 0.614,
+   "radius_m": 0.484,
+   "weight": 0.7,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 3432
+  },
+  "fern_lady_b": {
+   "species": "fern_lady",
+   "variant": "b",
+   "lod": 0,
+   "ko": "레이디펀(개고사리류)",
+   "height_m": 0.681,
+   "radius_m": 0.488,
+   "weight": 0.7,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 2667
+  },
+  "fern_lady_c": {
+   "species": "fern_lady",
+   "variant": "c",
+   "lod": 0,
+   "ko": "레이디펀(개고사리류)",
+   "height_m": 0.683,
+   "radius_m": 0.483,
+   "weight": 0.7,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 3861
+  },
+  "fern_bracken_a": {
+   "species": "fern_bracken",
+   "variant": "a",
+   "lod": 0,
+   "ko": "고사리",
+   "height_m": 0.828,
+   "radius_m": 0.927,
+   "weight": 0.6,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 5826
+  },
+  "fern_bracken_b": {
+   "species": "fern_bracken",
+   "variant": "b",
+   "lod": 0,
+   "ko": "고사리",
+   "height_m": 0.747,
+   "radius_m": 0.87,
+   "weight": 0.6,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 5826
+  },
+  "fern_bracken_c": {
+   "species": "fern_bracken",
+   "variant": "c",
+   "lod": 0,
+   "ko": "고사리",
+   "height_m": 0.89,
+   "radius_m": 0.871,
+   "weight": 0.6,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.3
+   },
+   "tris": 5826
+  },
+  "horsetail_a": {
+   "species": "horsetail",
+   "variant": "a",
+   "lod": 0,
+   "ko": "쇠뜨기",
+   "height_m": 0.477,
+   "radius_m": 0.116,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 3520
+  },
+  "horsetail_b": {
+   "species": "horsetail",
+   "variant": "b",
+   "lod": 0,
+   "ko": "쇠뜨기",
+   "height_m": 0.491,
+   "radius_m": 0.111,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 2816
+  },
+  "horsetail_c": {
+   "species": "horsetail",
+   "variant": "c",
+   "lod": 0,
+   "ko": "쇠뜨기",
+   "height_m": 0.521,
+   "radius_m": 0.134,
+   "weight": 0.5,
+   "habitat": "wet",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.4
+   },
+   "tris": 4416
+  },
+  "sedge_a": {
+   "species": "sedge",
+   "variant": "a",
+   "lod": 0,
+   "ko": "사초",
+   "height_m": 0.697,
+   "radius_m": 0.402,
+   "weight": 0.8,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 1429
+  },
+  "sedge_b": {
+   "species": "sedge",
+   "variant": "b",
+   "lod": 0,
+   "ko": "사초",
+   "height_m": 0.645,
+   "radius_m": 0.388,
+   "weight": 0.8,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 1971
+  },
+  "sedge_c": {
+   "species": "sedge",
+   "variant": "c",
+   "lod": 0,
+   "ko": "사초",
+   "height_m": 0.695,
+   "radius_m": 0.377,
+   "weight": 0.8,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 1317
+  },
+  "sedge_d": {
+   "species": "sedge",
+   "variant": "d",
+   "lod": 0,
+   "ko": "사초",
+   "height_m": 0.739,
+   "radius_m": 0.398,
+   "weight": 0.8,
+   "habitat": "water_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.5
+   },
+   "tris": 1541
+  },
+  "grass_tuft_a": {
+   "species": "grass_tuft",
+   "variant": "a",
+   "lod": 0,
+   "ko": "풀(볏과 풀)",
+   "height_m": 0.344,
+   "radius_m": 0.288,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.55
+   },
+   "tris": 1100
+  },
+  "grass_tuft_b": {
+   "species": "grass_tuft",
+   "variant": "b",
+   "lod": 0,
+   "ko": "풀(볏과 풀)",
+   "height_m": 0.27,
+   "radius_m": 0.225,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.55
+   },
+   "tris": 1400
+  },
+  "grass_tuft_c": {
+   "species": "grass_tuft",
+   "variant": "c",
+   "lod": 0,
+   "ko": "풀(볏과 풀)",
+   "height_m": 0.416,
+   "radius_m": 0.366,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.55
+   },
+   "tris": 900
+  },
+  "grass_tuft_d": {
+   "species": "grass_tuft",
+   "variant": "d",
+   "lod": 0,
+   "ko": "풀(볏과 풀)",
+   "height_m": 0.39,
+   "radius_m": 0.323,
+   "weight": 1.0,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.55
+   },
+   "tris": 1200
+  },
+  "grass_seed_a": {
+   "species": "grass_seed",
+   "variant": "a",
+   "lod": 0,
+   "ko": "키 큰 풀(이삭)",
+   "height_m": 1.199,
+   "radius_m": 0.329,
+   "weight": 0.7,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 4716
+  },
+  "grass_seed_b": {
+   "species": "grass_seed",
+   "variant": "b",
+   "lod": 0,
+   "ko": "키 큰 풀(이삭)",
+   "height_m": 1.167,
+   "radius_m": 0.33,
+   "weight": 0.7,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 2560
+  },
+  "grass_seed_c": {
+   "species": "grass_seed",
+   "variant": "c",
+   "lod": 0,
+   "ko": "키 큰 풀(이삭)",
+   "height_m": 0.949,
+   "radius_m": 0.306,
+   "weight": 0.7,
+   "habitat": "meadow",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.6
+   },
+   "tris": 4844
+  },
+  "mushroom_fly_agaric_a": {
+   "species": "mushroom_fly_agaric",
+   "variant": "a",
+   "lod": 0,
+   "ko": "광대버섯",
+   "height_m": 0.161,
+   "radius_m": 0.078,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1816
+  },
+  "mushroom_fly_agaric_b": {
+   "species": "mushroom_fly_agaric",
+   "variant": "b",
+   "lod": 0,
+   "ko": "광대버섯",
+   "height_m": 0.125,
+   "radius_m": 0.042,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1624
+  },
+  "mushroom_fly_agaric_c": {
+   "species": "mushroom_fly_agaric",
+   "variant": "c",
+   "lod": 0,
+   "ko": "광대버섯",
+   "height_m": 0.184,
+   "radius_m": 0.168,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 4712
+  },
+  "mushroom_fly_agaric_d": {
+   "species": "mushroom_fly_agaric",
+   "variant": "d",
+   "lod": 0,
+   "ko": "광대버섯",
+   "height_m": 0.197,
+   "radius_m": 0.094,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1960
+  },
+  "mushroom_porcini_a": {
+   "species": "mushroom_porcini",
+   "variant": "a",
+   "lod": 0,
+   "ko": "그물버섯(포르치니)",
+   "height_m": 0.131,
+   "radius_m": 0.081,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 936
+  },
+  "mushroom_porcini_b": {
+   "species": "mushroom_porcini",
+   "variant": "b",
+   "lod": 0,
+   "ko": "그물버섯(포르치니)",
+   "height_m": 0.161,
+   "radius_m": 0.136,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1872
+  },
+  "mushroom_porcini_c": {
+   "species": "mushroom_porcini",
+   "variant": "c",
+   "lod": 0,
+   "ko": "그물버섯(포르치니)",
+   "height_m": 0.111,
+   "radius_m": 0.102,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 2808
+  },
+  "mushroom_chanterelle_a": {
+   "species": "mushroom_chanterelle",
+   "variant": "a",
+   "lod": 0,
+   "ko": "살구버섯(꾀꼬리버섯)",
+   "height_m": 0.054,
+   "radius_m": 0.095,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 2304
+  },
+  "mushroom_chanterelle_b": {
+   "species": "mushroom_chanterelle",
+   "variant": "b",
+   "lod": 0,
+   "ko": "살구버섯(꾀꼬리버섯)",
+   "height_m": 0.068,
+   "radius_m": 0.094,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 3072
+  },
+  "mushroom_chanterelle_c": {
+   "species": "mushroom_chanterelle",
+   "variant": "c",
+   "lod": 0,
+   "ko": "살구버섯(꾀꼬리버섯)",
+   "height_m": 0.05,
+   "radius_m": 0.074,
+   "weight": 0.25,
+   "habitat": "forest_edge",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 1536
+  },
+  "mushroom_honey_a": {
+   "species": "mushroom_honey",
+   "variant": "a",
+   "lod": 0,
+   "ko": "뽕나무버섯",
+   "height_m": 0.109,
+   "radius_m": 0.07,
+   "weight": 0.25,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 4128
+  },
+  "mushroom_honey_b": {
+   "species": "mushroom_honey",
+   "variant": "b",
+   "lod": 0,
+   "ko": "뽕나무버섯",
+   "height_m": 0.111,
+   "radius_m": 0.064,
+   "weight": 0.25,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 5192
+  },
+  "mushroom_honey_c": {
+   "species": "mushroom_honey",
+   "variant": "c",
+   "lod": 0,
+   "ko": "뽕나무버섯",
+   "height_m": 0.11,
+   "radius_m": 0.068,
+   "weight": 0.25,
+   "habitat": "shade",
+   "sway": {
+    "pivot": "base",
+    "amount": 0.0
+   },
+   "tris": 6064
+  }
+ },
+ "species": {
+  "cattail": {
+   "ko": "부들",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.8,
+   "habitat": "water_edge"
+  },
+  "reed": {
+   "ko": "갈대",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.9,
+   "habitat": "water_edge"
+  },
+  "iris_yellow": {
+   "ko": "노랑꽃창포",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.5,
+   "habitat": "water_edge"
+  },
+  "lilypad": {
+   "ko": "수련 잎",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 1.0,
+   "habitat": "water_edge"
+  },
+  "waterlily_white": {
+   "ko": "흰수련",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.35,
+   "habitat": "water_edge"
+  },
+  "waterlily_pink": {
+   "ko": "분홍수련",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.25,
+   "habitat": "water_edge"
+  },
+  "marsh_marigold": {
+   "ko": "동의나물",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.5,
+   "habitat": "wet"
+  },
+  "fern_lady": {
+   "ko": "레이디펀(개고사리류)",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.7,
+   "habitat": "shade"
+  },
+  "fern_bracken": {
+   "ko": "고사리",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.6,
+   "habitat": "forest_edge"
+  },
+  "horsetail": {
+   "ko": "쇠뜨기",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.5,
+   "habitat": "wet"
+  },
+  "sedge": {
+   "ko": "사초",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.8,
+   "habitat": "water_edge"
+  },
+  "grass_tuft": {
+   "ko": "풀(볏과 풀)",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 1.0,
+   "habitat": "meadow"
+  },
+  "grass_seed": {
+   "ko": "키 큰 풀(이삭)",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.7,
+   "habitat": "meadow"
+  },
+  "mushroom_fly_agaric": {
+   "ko": "광대버섯",
+   "variants": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "weight": 0.25,
+   "habitat": "forest_edge"
+  },
+  "mushroom_porcini": {
+   "ko": "그물버섯(포르치니)",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.25,
+   "habitat": "forest_edge"
+  },
+  "mushroom_chanterelle": {
+   "ko": "살구버섯(꾀꼬리버섯)",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.25,
+   "habitat": "forest_edge"
+  },
+  "mushroom_honey": {
+   "ko": "뽕나무버섯",
+   "variants": [
+    "a",
+    "b",
+    "c"
+   ],
+   "weight": 0.25,
+   "habitat": "shade"
+  }
+ }
+}

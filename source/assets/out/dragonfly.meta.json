@@ -1,0 +1,32 @@
+{
+ "species": "emperor/hawker dragonfly (blue abdomen)",
+ "scale_hint_m": {
+  "length": 0.075,
+  "wingspan": 0.104,
+  "hover_height": 0.03
+ },
+ "axes": "nose -Y, left +X; origin on ground under body (thorax at z=0.03)",
+ "parts": {
+  "root": "body (thorax+legs)",
+  "abdomen": "abdomen (pivot at thorax rear; pitch about X for flight/curl)",
+  "head": "head (pivot at neck)",
+  "wings": {
+   "fore_l": "wing_fl",
+   "fore_r": "wing_fr",
+   "hind_l": "wing_hl",
+   "hind_r": "wing_hr"
+  }
+ },
+ "flight": {
+  "wing_beat_hz": 28,
+  "flap_axis": "Y (roll about fore-aft axis; left wing rotate +Y deg? flap: left wing rot_y = +a, right wing rot_y = -a)",
+  "flap_amplitude_deg": 35,
+  "fore_hind_phase_offset": 0.5,
+  "hover_bob_m": 0.01,
+  "abdomen_pitch_deg": [
+   -6,
+   6
+  ]
+ },
+ "note": "wings rest spread flat (z pivot at top of thorax), ~0.05 m long each; membrane alpha 0.3 double-sided; veins opaque sub-mesh"
+}

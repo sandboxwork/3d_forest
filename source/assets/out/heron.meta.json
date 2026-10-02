@@ -1,0 +1,190 @@
+{
+ "species": "Grey heron (Ardea cinerea), standing",
+ "forward": "-Y",
+ "left": "+X",
+ "origin": "ground under body centre",
+ "scale_hint_m": {
+  "standing_height_to_crown": 1.1,
+  "bill_length": 0.15,
+  "wingspan_open": 1.7,
+  "body_length": 0.4
+ },
+ "parts": {
+  "root": "body",
+  "neck": [
+   "neck_1",
+   "neck_2",
+   "neck_3"
+  ],
+  "head": "head",
+  "bill_lower": "bill_lower",
+  "tail": "tail",
+  "wing_l": [
+   "wing_l_upper",
+   "wing_l_fore",
+   "wing_l_hand"
+  ],
+  "wing_r": [
+   "wing_r_upper",
+   "wing_r_fore",
+   "wing_r_hand"
+  ],
+  "legs": {
+   "l": [
+    "leg_upper_l",
+    "leg_lower_l",
+    "foot_l"
+   ],
+   "r": [
+    "leg_upper_r",
+    "leg_lower_r",
+    "foot_r"
+   ]
+  }
+ },
+ "hierarchy": {
+  "body": [
+   "neck_1",
+   "tail",
+   "wing_*_upper",
+   "leg_upper_*"
+  ],
+  "neck_1": [
+   "neck_2"
+  ],
+  "neck_2": [
+   "neck_3"
+  ],
+  "neck_3": [
+   "head"
+  ],
+  "head": [
+   "bill_lower"
+  ],
+  "leg_upper_*": [
+   "leg_lower_*"
+  ],
+  "leg_lower_*": [
+   "foot_*"
+  ],
+  "wing_*_upper": [
+   "wing_*_fore"
+  ],
+  "wing_*_fore": [
+   "wing_*_hand"
+  ]
+ },
+ "rest_pose": "standing, wings folded (geometry), S-curved neck. Strike pose: rotate neck_1 about X by -25 deg (forward/up), neck_2 +35, neck_3 -25 (straightens S), then dart forward.",
+ "strike": {
+  "neck_1_rot_x_deg": -20,
+  "neck_2_rot_x_deg": 30,
+  "neck_3_rot_x_deg": -40,
+  "head_rot_x_deg": 10
+ },
+ "walk": {
+  "cycle_s": 2.4,
+  "leg_upper_rot_x_deg": [
+   -25,
+   25
+  ],
+  "leg_lower_rot_x_deg": [
+   0,
+   -40
+  ],
+  "foot_rot_x_deg": [
+   -20,
+   20
+  ],
+  "note": "slow deliberate stepping, lift foot high, knee joint bends backward (lower: negative X rotation folds foot back)"
+ },
+ "wing_open_pose": {
+  "wing_l": {
+   "upper": {
+    "open_quat_xyzw_three": [
+     0.51233,
+     -0.51233,
+     -0.48736,
+     0.48736
+    ],
+    "open_euler_xyz_deg_blender": [
+     92.9,
+     90.0,
+     0.0
+    ]
+   },
+   "fore": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99969,
+     0.02485,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     -2.8,
+     -0.0,
+     180.0
+    ]
+   },
+   "hand": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99829,
+     -0.05841,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     6.7,
+     -0.0,
+     180.0
+    ]
+   }
+  },
+  "wing_r": {
+   "upper": {
+    "open_quat_xyzw_three": [
+     0.51233,
+     0.51233,
+     0.48736,
+     0.48736
+    ],
+    "open_euler_xyz_deg_blender": [
+     92.9,
+     -90.0,
+     0.0
+    ]
+   },
+   "fore": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99969,
+     0.02485,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     -2.8,
+     -0.0,
+     180.0
+    ]
+   },
+   "hand": {
+    "open_quat_xyzw_three": [
+     0.0,
+     0.99829,
+     -0.05841,
+     0.0
+    ],
+    "open_euler_xyz_deg_blender": [
+     6.7,
+     -0.0,
+     180.0
+    ]
+   }
+  }
+ },
+ "wing_open_note": "per-segment local quaternion xyzw (three.js) to spread the wing fully; slerp from identity. Flap: rotate wing_*_upper about three.js Z.",
+ "idle": {
+  "head_turn_deg": 25,
+  "neck_breath": 1.0,
+  "crest_wind": "none"
+ }
+}

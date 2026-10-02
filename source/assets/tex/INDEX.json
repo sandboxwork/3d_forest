@@ -1,0 +1,164 @@
+{
+ "pbr_wood_floor": {
+  "tile_m": 1.0,
+  "notes": "4 boards across (grain along U/x), staggered butt joints, knots, per-board tint, wear. Gaps dark in albedo and rough=1.",
+  "maps": [
+   "pbr_wood_floor.jpg",
+   "pbr_wood_floor_n.jpg",
+   "pbr_wood_floor_r.jpg"
+  ]
+ },
+ "pbr_wood_pine": {
+  "tile_m": 0.6,
+  "notes": "light pine tongue-and-groove, 4 boards per tile, grain along U/x, V-grooves, a few knots.",
+  "maps": [
+   "pbr_wood_pine.jpg",
+   "pbr_wood_pine_n.jpg",
+   "pbr_wood_pine_r.jpg"
+  ]
+ },
+ "pbr_wood_oak": {
+  "tile_m": 0.5,
+  "notes": "medium oak, fine grain along U/x with pores, satin roughness ~0.45.",
+  "maps": [
+   "pbr_wood_oak.jpg",
+   "pbr_wood_oak_n.jpg",
+   "pbr_wood_oak_r.jpg"
+  ]
+ },
+ "pbr_wood_dark": {
+  "tile_m": 0.6,
+  "notes": "dark stained hand-hewn beam; grain along U/x, adze scoops across grain, small cracks.",
+  "maps": [
+   "pbr_wood_dark.jpg",
+   "pbr_wood_dark_n.jpg",
+   "pbr_wood_dark_r.jpg"
+  ]
+ },
+ "pbr_plaster": {
+  "tile_m": 1.0,
+  "notes": "warm off-white lime plaster, mottling, hairline cracks, fine grain pits.",
+  "maps": [
+   "pbr_plaster.jpg",
+   "pbr_plaster_n.jpg",
+   "pbr_plaster_r.jpg"
+  ]
+ },
+ "pbr_fabric_linen": {
+  "tile_m": 0.25,
+  "notes": "natural linen plain weave, 56 threads/tile (stylised coarse), slubs. Light neutral - tintable.",
+  "maps": [
+   "pbr_fabric_linen.jpg",
+   "pbr_fabric_linen_n.jpg",
+   "pbr_fabric_linen_r.jpg"
+  ]
+ },
+ "pbr_fabric_wool": {
+  "tile_m": 0.3,
+  "notes": "oatmeal knit (stockinette), 12 x 15 stitches per tile. Light neutral - tintable.",
+  "maps": [
+   "pbr_fabric_wool.jpg",
+   "pbr_fabric_wool_n.jpg",
+   "pbr_fabric_wool_r.jpg"
+  ]
+ },
+ "pbr_fabric_burlap": {
+  "tile_m": 0.25,
+  "notes": "jute hessian, 18 threads/tile, open weave gaps, dark in gaps.",
+  "maps": [
+   "pbr_fabric_burlap.jpg",
+   "pbr_fabric_burlap_n.jpg",
+   "pbr_fabric_burlap_r.jpg"
+  ]
+ },
+ "pbr_leather": {
+  "tile_m": 0.3,
+  "notes": "worn brown leather: pebbled grain, soft creases, pores, wear patches.",
+  "maps": [
+   "pbr_leather.jpg",
+   "pbr_leather_n.jpg",
+   "pbr_leather_r.jpg"
+  ]
+ },
+ "pbr_rug_braided": {
+  "tile_m": 0.4,
+  "notes": "4 straight braided rag cords per tile (U/x direction), 8 lobes per cord, multicolour muted.",
+  "maps": [
+   "pbr_rug_braided.jpg",
+   "pbr_rug_braided_n.jpg",
+   "pbr_rug_braided_r.jpg"
+  ]
+ },
+ "pbr_iron": {
+  "tile_m": 0.4,
+  "notes": "dark cast iron, albedo ~0.24 grey (use metalness ~1), pitted, sand-cast grain, faint rust specks.",
+  "maps": [
+   "pbr_iron.jpg",
+   "pbr_iron_n.jpg",
+   "pbr_iron_r.jpg"
+  ]
+ },
+ "pbr_brass_copper": {
+  "tile_m": 0.3,
+  "notes": "brushed copper/brass, brushing along U/x, tarnish patches; roughness 0.3-0.55 (use metalness ~1).",
+  "maps": [
+   "pbr_brass_copper.jpg",
+   "pbr_brass_copper_n.jpg",
+   "pbr_brass_copper_r.jpg"
+  ]
+ },
+ "pbr_ceramic": {
+  "tile_m": 0.2,
+  "notes": "off-white glazed earthenware, fine crazing, glossy roughness ~0.2; 256 px.",
+  "maps": [
+   "pbr_ceramic.jpg",
+   "pbr_ceramic_n.jpg",
+   "pbr_ceramic_r.jpg"
+  ]
+ },
+ "pbr_stone_fireplace": {
+  "tile_m": 1.0,
+  "notes": "fieldstone masonry ~5x4 stones with mortar joints, soot darkening.",
+  "maps": [
+   "pbr_stone_fireplace.jpg",
+   "pbr_stone_fireplace_n.jpg",
+   "pbr_stone_fireplace_r.jpg"
+  ]
+ },
+ "pbr_paper": {
+  "tile_m": 0.2,
+  "notes": "aged cream paper, fibres, mottling, faint foxing; 256 px.",
+  "maps": [
+   "pbr_paper.jpg",
+   "pbr_paper_n.jpg",
+   "pbr_paper_r.jpg"
+  ]
+ },
+ "pbr_book_cloth": {
+  "tile_m": 0.15,
+  "notes": "burgundy cloth weave with embossed diamond lattice; mid-tone, tint-friendly.",
+  "maps": [
+   "pbr_book_cloth.jpg",
+   "pbr_book_cloth_n.jpg",
+   "pbr_book_cloth_r.jpg"
+  ]
+ },
+ "pbr_wicker": {
+  "tile_m": 0.2,
+  "notes": "flat reed strips plain weave, 8 per tile, fibrous streaks.",
+  "maps": [
+   "pbr_wicker.jpg",
+   "pbr_wicker_n.jpg",
+   "pbr_wicker_r.jpg"
+  ]
+ },
+ "pbr_glass_dirty": {
+  "tile_m": 0.5,
+  "notes": "optional: near-white albedo; smudges/dust encoded mainly in roughness (0.06 clean to ~0.4); 256 px.",
+  "maps": [
+   "pbr_glass_dirty.jpg",
+   "pbr_glass_dirty_n.jpg",
+   "pbr_glass_dirty_r.jpg"
+  ]
+ }
+}

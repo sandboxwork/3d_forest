@@ -1,0 +1,38 @@
+{
+ "species": "brown/rainbow trout",
+ "fish": true,
+ "body_length_m": 0.35,
+ "axes": "nose -Y, tail +Y, dorsal +Z, origin mid-body; export pivots in three.js coords (x,z,-y)",
+ "wiggle": {
+  "axis": "blender Y (three.js -Z... three Z = -Y)",
+  "head_y": -0.176,
+  "tail_y": 0.175,
+  "note": "in three.js coords the nose is at z=+0.176, tail at z=-0.175; amplitude grows from 0 at head to max at tail"
+ },
+ "parts": {
+  "root": "body",
+  "tail": "tail",
+  "dorsal": "fin_dorsal",
+  "adipose": "fin_adipose",
+  "anal": "fin_anal",
+  "pectoral": [
+   "fin_pectoral_l",
+   "fin_pectoral_r"
+  ],
+  "pelvic": [
+   "fin_pelvic_l",
+   "fin_pelvic_r"
+  ]
+ },
+ "animation": {
+  "tail_swing_deg": 28,
+  "tail_axis": "Z (yaw)",
+  "tail_hz": 2.5,
+  "pectoral_flap_deg": 20,
+  "pectoral_axes": "Z for l/r",
+  "scale_hint_m": {
+   "length": 0.35,
+   "depth": 0.073
+  }
+ }
+}

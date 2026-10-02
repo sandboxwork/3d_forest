@@ -1,0 +1,32 @@
+{
+ "species": "common carp / koi (golden-orange)",
+ "fish": true,
+ "body_length_m": 0.45,
+ "axes": "nose -Y, tail +Y, dorsal +Z, origin mid-body",
+ "wiggle": {
+  "head_y": -0.225,
+  "tail_y": 0.235,
+  "note": "blender Y; in three.js the nose is +Z. wiggle amplitude 0 at head growing to tail; body ~0.14 m deep"
+ },
+ "parts": {
+  "root": "body",
+  "tail": "tail",
+  "dorsal": "fin_dorsal",
+  "anal": "fin_anal",
+  "pectoral": [
+   "fin_pectoral_l",
+   "fin_pectoral_r"
+  ],
+  "pelvic": [
+   "fin_pelvic_l",
+   "fin_pelvic_r"
+  ],
+  "barbels": "sub-mesh of body (material carp_barbel)"
+ },
+ "animation": {
+  "tail_swing_deg": 22,
+  "tail_axis": "Z (yaw)",
+  "tail_hz": 1.6,
+  "pectoral_flap_deg": 15
+ }
+}

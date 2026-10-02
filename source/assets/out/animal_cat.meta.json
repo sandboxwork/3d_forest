@@ -1,0 +1,123 @@
+{
+ "species": "domestic tabby cat",
+ "forward": "-Y blender (+Z three.js)",
+ "scale_hint_m": {
+  "shoulder_height": 0.25,
+  "length": 0.5,
+  "head_height_alert": 0.4
+ },
+ "parts": {
+  "root": "body",
+  "neck": "neck",
+  "head": "head",
+  "jaw": "jaw",
+  "ears": [
+   "ear_l",
+   "ear_r"
+  ],
+  "tail": "tail",
+  "horns": [],
+  "left_is": "+X blender (+X three.js)"
+ },
+ "hierarchy": {
+  "body": [
+   "neck",
+   "tail",
+   "leg_*_upper"
+  ],
+  "neck": [
+   "head"
+  ],
+  "head": [
+   "jaw",
+   "ear_l",
+   "ear_r"
+  ],
+  "leg_xx_upper": [
+   "leg_xx_lower"
+  ],
+  "leg_xx_lower": [
+   "leg_xx_paw"
+  ]
+ },
+ "gait": {
+  "walk_cycle_s": 0.7,
+  "trot_cycle_s": 0.4,
+  "legs": {
+   "leg_fl": [
+    "upper",
+    "lower",
+    "paw"
+   ],
+   "leg_fr": [
+    "upper",
+    "lower",
+    "paw"
+   ],
+   "leg_hl": [
+    "upper",
+    "lower",
+    "paw"
+   ],
+   "leg_hr": [
+    "upper",
+    "lower",
+    "paw"
+   ]
+  },
+  "walk_order": [
+   "leg_hl",
+   "leg_fl",
+   "leg_hr",
+   "leg_fr"
+  ],
+  "phase_offsets": {
+   "leg_hl": 0.0,
+   "leg_fl": 0.25,
+   "leg_hr": 0.5,
+   "leg_fr": 0.75
+  },
+  "rotation_axis": "X (positive X rotation swings the lower end of a limb backward (+Y), i.e. foot goes back)",
+  "swing_deg": {
+   "upper": [
+    -32,
+    32
+   ],
+   "lower_fore": [
+    0,
+    55
+   ],
+   "lower_hind": [
+    -60,
+    10
+   ],
+   "paw": [
+    -15,
+    20
+   ]
+  },
+  "note": "Forelegs: carpus flexion = +X rot of lower (foot goes back/up). Hind: hock flexion = -X rot of lower in swing; upper swings +/-X about hip. Same convention as deer.json."
+ },
+ "idle": {
+  "head_bob_deg": 4,
+  "ear_flick_deg": 20,
+  "tail_sway_deg": 18,
+  "tail_sway_axis": "Z, slow sway ~0.5 Hz",
+  "breath": "scale body Y 1.0..1.02 at 0.6 Hz"
+ },
+ "grazing_pose": {
+  "neck_rot_x_deg": 30,
+  "head_rot_x_deg": 25,
+  "jaw_chew_deg": [
+   0,
+   8
+  ],
+  "note": "drinking/eating pose; positive X rotation pitches the free end downward"
+ },
+ "alert_pose": {
+  "neck_rot_x_deg": -8,
+  "head_rot_x_deg": -5,
+  "ears_out_deg": 15
+ },
+ "pivots": "each part origin = joint; see bundle parts[].pivot (three.js coords)"
+}

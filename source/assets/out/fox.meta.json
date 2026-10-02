@@ -1,0 +1,127 @@
+{
+ "species": "red fox (Vulpes vulpes)",
+ "forward": "-Y",
+ "left_is": "+X",
+ "scale_hint_m": {
+  "shoulder_height": 0.4,
+  "body_length": 0.68,
+  "tail_length": 0.42,
+  "total_length": 1.05
+ },
+ "parts": {
+  "root": "body",
+  "neck": "neck",
+  "head": "head",
+  "jaw": "jaw",
+  "ears": [
+   "ear_l",
+   "ear_r"
+  ],
+  "tail": "tail"
+ },
+ "hierarchy": {
+  "body": [
+   "neck",
+   "tail",
+   "leg_f*_upper",
+   "leg_h*_thigh"
+  ],
+  "neck": [
+   "head"
+  ],
+  "head": [
+   "jaw",
+   "ear_l",
+   "ear_r"
+  ],
+  "leg_f*_upper": [
+   "leg_f*_lower"
+  ],
+  "leg_f*_lower": [
+   "leg_f*_paw"
+  ],
+  "leg_h*_thigh": [
+   "leg_h*_lower"
+  ],
+  "leg_h*_lower": [
+   "leg_h*_paw"
+  ]
+ },
+ "gait": {
+  "walk_cycle_s": 0.9,
+  "trot_cycle_s": 0.5,
+  "legs": {
+   "leg_fl": [
+    "upper/thigh",
+    "lower",
+    "paw"
+   ],
+   "leg_fr": [
+    "upper/thigh",
+    "lower",
+    "paw"
+   ],
+   "leg_hl": [
+    "upper/thigh",
+    "lower",
+    "paw"
+   ],
+   "leg_hr": [
+    "upper/thigh",
+    "lower",
+    "paw"
+   ]
+  },
+  "trot_pairs": [
+   [
+    "leg_fl",
+    "leg_hr"
+   ],
+   [
+    "leg_fr",
+    "leg_hl"
+   ]
+  ],
+  "walk_phase": {
+   "leg_hl": 0.0,
+   "leg_fl": 0.25,
+   "leg_hr": 0.5,
+   "leg_fr": 0.75
+  },
+  "swing_deg": {
+   "upper": [
+    -30,
+    30
+   ],
+   "lower": [
+    0,
+    50
+   ],
+   "paw": [
+    -20,
+    20
+   ]
+  },
+  "axis": "X"
+ },
+ "spine": {
+  "body_bob_m": 0.015,
+  "tail_sway_deg": 10,
+  "tail_follow": "tail rot_z lags body yaw"
+ },
+ "idle": {
+  "head_sniff_deg": 6,
+  "ear_swivel_deg": 15,
+  "tail_sway_deg": 6
+ },
+ "pose_hints": {
+  "sniff_ground": {
+   "neck_rot_x_deg": 35,
+   "head_rot_x_deg": 20
+  },
+  "pounce": {
+   "body_pitch_deg": 15,
+   "neck_rot_x_deg": 40
+  }
+ }
+}
